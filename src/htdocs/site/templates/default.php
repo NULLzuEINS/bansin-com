@@ -1,13 +1,5 @@
 <?php snippet('header') ?>
 <?php snippet('submenu') ?>
-<section class="content">
-  <article>
-    <h1><?php echo html($page->title()) ?></h1>
-		<?php echo kirbytext($page->text()) ?>
-  </article>
-</section>
-<?php snippet('footer') ?>
-
 
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
@@ -34,4 +26,15 @@
 		<p><a class="btn" href="#">View details &raquo;</a></p>
 	</div>
 </div>
+<section class="content">
+  <article>
+    <h1><?php echo html($page->title()) ?></h1>
+		<?php echo kirbytext($page->text()) ?>
+  </article>
+</section>
+
+
+<?php snippet('footer') ?>
+
+
 
