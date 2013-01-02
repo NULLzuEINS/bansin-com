@@ -1,9 +1,9 @@
-Title: Kirby Demo
+Title: Bansin - Dein Paradis auf der Insel
 ----
-Author: Bastian Allgeier
+Author: Roland Lademann
 ----
-Description: Kirby is awesome
+Description: Vermietung einer Ferienwohnung in Bansin auf Usedom. Hier verbringen Sie einen wunderschönen Urlaub.
 ----
-Keywords: kirby, cms, kirbycms, php, filesystem
+Keywords: ferienwohnung, usedom, bansin, günstige, modern
 ----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+Copyright: © 2008-(date: Year) (link: http://bansin.com text: Roland Lademann)
