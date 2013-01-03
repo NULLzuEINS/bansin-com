@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400|Grand+Hotel|Mouse+Memoirs);
 /*!
  * Bootstrap v2.2.2
  *
@@ -602,7 +603,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: inherit;
+  font-family: "Grand Hotel";
   font-weight: bold;
   line-height: 20px;
   color: inherit;
@@ -1166,6 +1167,7 @@ address {
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
+  font-family: "Grand Hotel";
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
 }
@@ -1618,8 +1620,9 @@ address {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
+  min-height: 180px;
   color: inherit;
-  background-color: #eeeeee;
+  background: #eeeeee url(../img/header.jpg) bottom center no-repeat;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;

@@ -21,23 +21,23 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
 		<link rel="shortcut icon" href="/assets/ico/favicon.png">
-		</head>
+		<base href="http://<?php echo $_SERVER['HTTP_HOST'] ?>">
+	</head>
 	<body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="<?php echo url() ?>"><?php echo html($site->title()) ?></a>
-          <div class="nav-collapse collapse">
-
-<?php snippet('menu') ?>
-          </div><!--/.nav-collapse -->
-        </div>
+    <header class="container">
+			<div class="navbar navbar-fixed-bo">
+				<div class="navbar-inner">
+					<nav class="container">
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<a class="brand" href="<?php echo url() ?>"><?php echo html($site->title()) ?></a>
+						<div class="nav-collapse collapse">
+							<?php snippet('menu') ?>
+						</div>
+        </nav>
       </div>
-    </div>
-    <div class="container">
+		</header>
+		<div class="container">
