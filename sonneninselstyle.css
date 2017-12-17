@@ -1,0 +1,87 @@
+BODY {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.erlaeuterung {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+/* ############# Quellenangaben  ############### */
+
+
+.quelle {
+	FONT-SIZE: 8pt; COLOR: #aaaaaa; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A.quelle {
+	COLOR: #aaaaaa; TEXT-DECORATION: none
+}
+A.quelle:link {
+	COLOR: #4898bb; TEXT-DECORATION: none
+}
+A.quelle:visited {
+	COLOR: #4898bb; TEXT-DECORATION: none
+}
+A.quelle:active {
+	COLOR: #4898bb; TEXT-DECORATION: none
+}
+A.quelle:hover {
+	COLOR: #4898bb; TEXT-DECORATION: none
+}
+
+
+P {
+	FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+
+input { FONT-SIZE: 10pt;
+		COLOR: #435266; 
+		FONT-FAMILY: Verdana, Tahoma, monospace, Arial, Verdana;  
+		BACKGROUND-COLOR: #ffffff;
+		border:1px solid #4898bb;
+	}
+textarea
+	 { FONT-SIZE: 10pt;
+		COLOR: #435266; 
+		FONT-FAMILY: Verdana, Tahoma, monospace, Arial, Verdana;  
+		BACKGROUND-COLOR: #ffffff;
+		border:1px solid #4898bb;
+    scrollbar-base-color:#4898bb;
+    scrollbar-3dlight-color:#ffffff;
+    scrollbar-arrow-color:#ffffff;
+    scrollbar-darkshadow-color:#ffffff;
+    scrollbar-face-color:#E0E8F0;
+    scrollbar-highlight-color:#ffffff;
+    scrollbar-shadow-color:#ffffff;
+    scrollbar-track-color:#ffffff;
+
+	}
+select {
+	FONT-SIZE: 8pt;
+    COLOR: #435266; 
+    FONT-FAMILY: Verdana, Tahoma, monospace, Arial, Verdana;  
+    BACKGROUND-COLOR: #ffffff;
+    border:1px solid #4898bb;
+    border-spacing:0px;
+    scrollbar-base-color:#f8f8f8;
+    scrollbar-3dlight-color:#f0f0f0;
+    scrollbar-arrow-color:#f0f0f0;
+    scrollbar-darkshadow-color:#f0f0f0;
+    scrollbar-face-color:#f0f0f0;
+    scrollbar-highlight-color:#f0f0f0;
+    scrollbar-shadow-color:#f0f0f0;
+    scrollbar-track-color:#f0f0f0;
+       }
+
+
+
+
+A {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4898bb; TEXT-DECORATION: none
+}
