@@ -404,8 +404,8 @@ default language.
 */
 
 c::set('lang.support', false);
-c::set('lang.default', 'en');
-c::set('lang.available', array('en', 'de'));
+c::set('lang.default', 'de');
+c::set('lang.available', array('de', 'en'));
 c::set('lang.detect', true);
 
 
@@ -421,7 +421,7 @@ else than txt. For example md or mdown.
 
 */
 
-c::set('content.file.extension', 'txt');
+c::set('content.file.extension', 'md');
 
 
 /*

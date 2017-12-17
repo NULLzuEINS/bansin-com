@@ -1,38 +1,18 @@
 <?php snippet('header') ?>
+<?php snippet('menu') ?>
 <?php snippet('submenu') ?>
-
-<!-- Main hero unit for a primary marketing message or call to action -->
-<div class="hero-unit">
-
-</div>
+<?php snippet('hero') ?>
 
 <!-- Example row of columns -->
-<div class="row">
-	<div class="span4">
-		<h2>Heading</h2>
-		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-		<p><a class="btn" href="#">View details &raquo;</a></p>
-	</div>
-	<div class="span4">
-		<h2>Heading</h2>
-		<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-		<p><a class="btn" href="#">View details &raquo;</a></p>
-	</div>
-	<div class="span4">
+<main class="section">
+	<section class="container">
+			<h1 class="title"><?php echo html($page->title()) ?></h1>
+			<?php echo kirbytext($page->text()) ?>
+	</section>
+	<aside class="col-xs-4">
 		<h2>Buchungsanfrage</h2>
 		<?php snippet('booking') ?>
-
-	</div>
-</div>
-<section class="content">
-  <article>
-    <h1><?php echo html($page->title()) ?></h1>
-		<?php echo kirbytext($page->text()) ?>
-  </article>
-</section>
-
+	</aside>
+</main>
 
 <?php snippet('footer') ?>
-
-
-
