@@ -1,4 +1,7 @@
 .DS_Store
-panel/
 site/panel
 docs
+/vendor
+/kirby
+/kirby/toolkit
+/panel
