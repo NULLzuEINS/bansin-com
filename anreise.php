@@ -1,5 +1,5 @@
- <? include "kopf.inc.php";?>
- <? include "image.inc.php";?>
+ <? include "inc/header.inc.php";?>
+ <? include "inc/image.inc.php";?>
    <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
                       <TBODY>
                         <TR>
@@ -26,10 +26,10 @@
 </table>
 <br>                          <span class="inhalt">
 
-        Viele Wege führen zur Villa Cosima. Wie Wollen Sie anreisen? <p>
+        Viele Wege fï¿½hren zur Villa Cosima. Wie Wollen Sie anreisen? <p>
                         <center>
         Villa Cosima<br>
-        Badstraße 18<br>
+        Badstraï¿½e 18<br>
         17429 Seeheilbad Bansin
         </center>
         </span>
@@ -46,7 +46,7 @@
 
         </TD>
                                   <TD vAlign=top width="45%"><div align="right">
-                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Karte von Usedom','Beachten Sie bei der Fahrt nach Usedom bitte die Brückenöffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
+                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Karte von Usedom','Beachten Sie bei der Fahrt nach Usedom bitte die Brï¿½ckenï¿½ffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
                                         <br>
                                         <a href="#" onclick="fenster('bilder/karte-bansin.gif','Karte von Bansin','Haben Sie Bansin einmal erreicht ist es ein Kinderspiel zur Villa Cosima zu finden. Diese Karte soll Ihnen dabei helfen.')"></p>
                                         <img src="bilder/karte-bansin.gif" alt="kompfortale Sitzgelegenheit an gro&szlig;en Fenstern" width="100" hspace="5" border=0 ></a></p>
@@ -62,4 +62,4 @@
                     </TABLE>
 
 
-<? include "fuss.inc.php";?>
+<? include "inc/footer.inc.php";?>

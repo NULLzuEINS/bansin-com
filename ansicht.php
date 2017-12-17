@@ -1,4 +1,4 @@
- <? include "kopf.inc.php";?>
+ <? include "inc/header.inc.php";?>
 
    <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
                       <TBODY>
@@ -38,7 +38,7 @@
                         size=2>Wintergarten mit Esstisch</FONT></li>
                   <li><FONT
                         face="Verdana, Arial, Helvetica, sans-serif"
-                        size=2>Wohnzimmer mit Küchenzeile</FONT></li>
+                        size=2>Wohnzimmer mit Kï¿½chenzeile</FONT></li>
                   <li><FONT
                         face="Verdana, Arial, Helvetica, sans-serif"
                         size=2>Kabel-TV, Stereoanlage, Telefon</FONT></li>
@@ -65,4 +65,4 @@
                     </TABLE>
 
 
-<? include "fuss.inc.php";?>
+<? include "inc/footer.inc.php";?>

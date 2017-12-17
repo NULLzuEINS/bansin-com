@@ -1,4 +1,4 @@
- <? include "kopf.inc.php";?>
+ <? include "inc/header.inc.php";?>
 
   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
       <TBODY>
@@ -15,10 +15,10 @@
              <TD vAlign=top width="71%" height=10>
                 <hr size="1" color="#f0f0f0" class="trenner">
         <FONT  face="Verdana, Arial, Helvetica, sans-serif" size=2> <span class="inhalt"> 
-        Ihre Email wurde erfolgreich versendet. Wir werden Sie baldmöglichst Kontaktieren.</span></FONT></TD>
+        Ihre Email wurde erfolgreich versendet. Wir werden Sie baldmï¿½glichst Kontaktieren.</span></FONT></TD>
 <td></td>
                                 </TR>
                               </TBODY>
                             </TABLE>
 
-<? include "fuss.inc.php";?>
+<? include "inc/footer.inc.php";?>

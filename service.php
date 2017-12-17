@@ -1,4 +1,4 @@
- <? include "kopf.inc.php";
+ <? include "inc/header.inc.php";
  echo'
   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
       <TBODY>
@@ -15,7 +15,7 @@
              <TD vAlign=top width="71%" height=10>
                 <hr size="1" color="#f0f0f0" class="trenner">
         <FONT  face="Verdana, Arial, Helvetica, sans-serif" size=2> <span class="inhalt">
-        <br>Wir sind für Sie telefonisch Erreichbar und beraten Sie, vor und wärend Ihres Aufenthaltes,
+        <br>Wir sind fï¿½r Sie telefonisch Erreichbar und beraten Sie, vor und wï¿½rend Ihres Aufenthaltes,
         rund zur Auswahl Ihrer Ferienwohnung und Feriengestaltung.<br> <br>
 
         Roland Lademann<br>
@@ -26,10 +26,10 @@
         Email <a href="mailform.php">'.$KontaktEmail.'</a><br><br>
 
 
-        Und Vorort steht ihnen zusätzlich Herrn Holger Müller als Ansprechparnter zur Verfügung.</span></FONT></TD>
+        Und Vorort steht ihnen zusï¿½tzlich Herrn Holger Mï¿½ller als Ansprechparnter zur Verfï¿½gung.</span></FONT></TD>
 <td></td>
                                 </TR>
                               </TBODY>
                             </TABLE>';
 
- include "fuss.inc.php";?>
+ include "inc/footer.inc.php";?>

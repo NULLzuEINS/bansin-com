@@ -4,7 +4,7 @@ echo'
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML><HEAD><TITLE>'.$KontaktInternet.' - '.$KontaktTitel.'</TITLE>
 <META content="'.$KontaktInternet.' - '.$KontaktTitel.'" name=description>
-<META content="ferienwohnung,appartement,usedom,bansin, zinnowitz, heeringsdorf, polen, schifffahrt, verleih, ostsee, günstig, vermietung, mieten, baden, urlaub, meer, sonne ,lademann ,behm ,villa ,bilder, fotos, kanu, fahrrad, service, gratis, free" name=keywords>
+<META content="ferienwohnung,appartement,usedom,bansin, zinnowitz, heeringsdorf, polen, schifffahrt, verleih, ostsee, gï¿½nstig, vermietung, mieten, baden, urlaub, meer, sonne ,lademann ,behm ,villa ,bilder, fotos, kanu, fahrrad, service, gratis, free" name=keywords>
 <META content=index,follow name=robots>
 <META content=de name=Content-Language>
 <META content="20 days" name=revisit-after>
@@ -17,24 +17,24 @@ echo'
 	self.name = "ferienwohnung";
 //-->
 </SCRIPT>
-<link href="'.$ServerAdresse.'sonneninselstyle.css" rel="stylesheet" type="text/css">
+<link href="'.$ServerAdresse . 'sonneninselstyle.css" rel="stylesheet" type="text/css">
 </HEAD>
 <BODY text=#000000 vLink=#333333 aLink=#333333 link=#333333 bgColor=#f2f2f2 scroll=auto >
 <DIV align=center>
 
 <TABLE width=729 height=560 border=0 cellPadding=0 cellSpacing=0 bordercolor="#ffffff" bgcolor="#ffffff">
 <TBODY>
-<TR style="background-image:url(bilder/up.gif)">
+<TR style="background-image:url(../bilder/up.gif)">
 <TD width="16" height=10 align="left" vAlign=top bgcolor="#3399CC" >&nbsp;</TD>
 <TD width="686" vAlign=top bgcolor="#3399CC" ><div align="center"><font color="#FFFFFF" size="1">
- '.$KontaktInternet.' -  '.$KontaktTitel.'</font></div></TD>
+ ' . $KontaktInternet . ' -  ' . $KontaktTitel . '</font></div></TD>
 <TD width="27" align="right" vAlign=top bgcolor="#3399CC"><font size="1">&nbsp;</font></TD>
 </TR>
 <TR>
-<TD height=106 colspan="3" vAlign=top background="bilder/banner/'. date("H").'kopf.jpg">&nbsp;  </TD>
+<TD height=106 colspan="3" vAlign=top background="bilder/banner/'. date("H") . 'kopf.jpg">&nbsp;  </TD>
 </TR>
 <TR>
-<TD height=405 colspan="3" vAlign=top background=bilder/space2.jpg
+<TD height=405 colspan="3" vAlign=top background=../bilder/space2.jpg
  bgColor=#ffffff> <DIV align=left><BR>
 <TABLE cellSpacing=0 cellPadding=0 width="99%" align=center border=0>
 <TBODY>
@@ -52,7 +52,7 @@ color=#ffffff size=2>&nbsp;Ferienwohnung</FONT></DIV></TD>
 <TD vAlign=top width="7%"> <DIV align=right><FONT
 face="Verdana, Arial, Helvetica, sans-serif"
 color=#ffffff size=1><IMG height=5
-src="bilder/ecke1.gif" width=5
+src="../bilder/ecke1.gif" width=5
 align=top></FONT></DIV></TD>
 </TR>
 </TBODY>
@@ -63,46 +63,46 @@ align=top></FONT></DIV></TD>
 <TR>
 <TD bgColor=#f0f0f0 height=14> <DIV align=left><FONT
 face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A
-href="index.php">Eingangsbereich</A></FONT></DIV></TD>
+href="../index.php">Eingangsbereich</A></FONT></DIV></TD>
 </TR>
 
 <TR>
 <TD bgColor=#f0f0f0 height=14> <DIV align=left><FONT
 face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A
-href="ansicht.php">Appartement</A></FONT></DIV></TD>
-</TR>
-
-
-<TR>
-<TD bgColor=#f0f0f0 height=14> <DIV align=left><FONT
-face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A
-href="grundriss.php">Grundriss</A></FONT></DIV></TD>
+href="../ansicht.php">Appartement</A></FONT></DIV></TD>
 </TR>
 
 
 <TR>
 <TD bgColor=#f0f0f0 height=14> <DIV align=left><FONT
 face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A
-href="service.php">Service</A></FONT></DIV></TD>
+href="../grundriss.php">Grundriss</A></FONT></DIV></TD>
+</TR>
+
+
+<TR>
+<TD bgColor=#f0f0f0 height=14> <DIV align=left><FONT
+face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A
+href="../service.php">Service</A></FONT></DIV></TD>
 </TR>
 
 
 <TR>
 <TD bgColor=#f0f0f0 height=15> <DIV align=left><FONT
 face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A
-href="anreise.php">Anreise</a></FONT></DIV></TD>
+href="../anreise.php">Anreise</a></FONT></DIV></TD>
 </TR>
 
 
 <tr>
 <TD bgColor=#f0f0f0 height=14><FONT
 face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<a
-href="preise.php">Preise</a></FONT></TD>
+href="../preise.php">Preise</a></FONT></TD>
 </TR>
 
 <TR>
 <TD bgColor=#f0f0f0 height=14> <DIV align=left><font
-face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A href="onlinereservierung.php">OnlineReservierung</a></font></DIV></TD>
+face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A href="../onlinereservierung.php">OnlineReservierung</a></font></DIV></TD>
 </TR>
 
 
@@ -113,7 +113,7 @@ face="Verdana, Arial, Helvetica, sans-serif" size=2>&nbsp;<A href="onlinereservi
 <TR>
 <TD width="93%" bgColor=#4898bb height=16>&nbsp;</TD>
 <TD vAlign=bottom width="7%" bgColor=#4898bb>
-<DIV align=right><IMG height=5 src="bilder/ecke2rechts.gif"  width=5></DIV></TD>
+<DIV align=right><IMG height=5 src="../bilder/ecke2rechts.gif"  width=5></DIV></TD>
 </TR>
 </TBODY>
 </TABLE></TD>
@@ -133,7 +133,7 @@ color=#ffffff size=2>&nbsp;Information</FONT></DIV></TD>
 <TD vAlign=top width="7%"> <DIV align=right><FONT
 face="Verdana, Arial, Helvetica, sans-serif"
 color=#ffffff size=1><IMG height=5
-src="bilder/ecke1.gif" width=5
+src="../bilder/ecke1.gif" width=5
 align=top></FONT></DIV></TD>
 </TR>
 </TBODY>
@@ -143,19 +143,19 @@ align=top></FONT></DIV></TD>
 <TR>
 <TD bgColor=#f0f0f0 height=14> <DIV align=left> <font
 face="Verdana, Arial, Helvetica, sans-serif" size=2><a
-href="usedom.php">&nbsp;Usedom</a></font></DIV></TD>
+href="../usedom.php">&nbsp;Usedom</a></font></DIV></TD>
 </TR>
 
 <TR>
 <TD bgColor=#f0f0f0 height=14> <DIV align=left><font
 face="Verdana, Arial, Helvetica, sans-serif" size=2><a
-href="bansin.php">&nbsp;Bansin</a></font></DIV></TD>
+href="../bansin.php">&nbsp;Bansin</a></font></DIV></TD>
 </TR>
 
 <TR>
 <TD bgColor=#f0f0f0 height=14> <DIV align=left><FONT
 face="Verdana, Arial, Helvetica, sans-serif" size=2><A
-href="ferien.php">&nbsp;Ferienkalender</A></FONT></DIV></TD>
+href="../ferien.php">&nbsp;Ferienkalender</A></FONT></DIV></TD>
 </TR>
 <!--
 <TR>
@@ -173,19 +173,19 @@ href="kultur.php">&nbsp;Kultur/Sport</a></font></DIV></TD>
 <TR>
 <TD bgColor=#f0f0f0 height=14><font
 face="Verdana, Arial, Helvetica, sans-serif" size=2><a
-href="webcam.php">&nbsp;WebCam</a></font></TD>
+href="../webcam.php">&nbsp;WebCam</a></font></TD>
 </TR>
 
 <TR>
   <TD bgColor=#f0f0f0 height=14><font
 face="Verdana, Arial, Helvetica, sans-serif" size=2><a
-href="mailform.php">&nbsp;Email</a></font></TD>
+href="../mailform.php">&nbsp;Email</a></font></TD>
 </TR>
 
 <TR>
 <TD bgColor=#f0f0f0 height=14><font
 face="Verdana, Arial, Helvetica, sans-serif" size=2><a
-href="impressum.php">&nbsp;Impressum</a></font></TD>
+href="../impressum.php">&nbsp;Impressum</a></font></TD>
 </TR>
 
 <TR>
@@ -194,7 +194,7 @@ href="impressum.php">&nbsp;Impressum</a></font></TD>
 <TR>
 <TD width="93%" bgColor=#4898bb height=16>&nbsp;</TD>
 <TD vAlign=bottom width="7%" bgColor=#4898bb>
-<DIV align=right><IMG height=5 src="bilder/ecke2rechts.gif" width=5></DIV></TD>
+<DIV align=right><IMG height=5 src="../bilder/ecke2rechts.gif" width=5></DIV></TD>
 </TR>
 </TBODY>
  </TABLE></TD>

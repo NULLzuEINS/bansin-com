@@ -1,5 +1,5 @@
- <? include "kopf.inc.php";?>
- <? include "image.inc.php";?>
+ <? include "inc/header.inc.php";?>
+ <? include "inc/image.inc.php";?>
  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
                       <TBODY>
                         <TR>
@@ -26,8 +26,8 @@
 </table>
 <br>                          <span class="inhalt"><img src="bilder/auto.gif" alt="Quelle: http://www.renault.de"   hspace="5" border=0 align=left>
 Hier haben Sie durch den Service von <a href="http://web.de" target="insel">
-WEB.DE</a> die Möglichkeit, Ihre Fahrtroute direkt von Ihrem "Heimathafen" erstellen und anschliessend ausdrucken zu lassen.
-                                   Weiter unten sehen Sie in einer Übersicht eine Beschreibung nach Himmelsrichtungen.</span>
+WEB.DE</a> die Mï¿½glichkeit, Ihre Fahrtroute direkt von Ihrem "Heimathafen" erstellen und anschliessend ausdrucken zu lassen.
+                                   Weiter unten sehen Sie in einer ï¿½bersicht eine Beschreibung nach Himmelsrichtungen.</span>
 
       <table border="0" cellpadding="0" cellspacing="0" width="435">
       <tr>
@@ -61,7 +61,7 @@ WEB.DE</a> die Möglichkeit, Ihre Fahrtroute direkt von Ihrem "Heimathafen" erste
     <table border="0" cellpadding="2" cellspacing="2" width="198">
     <tr>
         <td rowspan="3" width="1"></td>
-        <td colspan="2" width="180"><font face="Verdana, Arial, Helvetica" size="3"><input type="TEXT" name="fromstreet" value="Straße" size="12" style="width: 178px" tabindex="1" onfocus="javascript:if (document.webderoute2.fromstreet.value == 'Straße') document.webderoute2.fromstreet.value = '';"></font></td>
+        <td colspan="2" width="180"><font face="Verdana, Arial, Helvetica" size="3"><input type="TEXT" name="fromstreet" value="Straï¿½e" size="12" style="width: 178px" tabindex="1" onfocus="javascript:if (document.webderoute2.fromstreet.value == 'Straï¿½e') document.webderoute2.fromstreet.value = '';"></font></td>
         <td rowspan="3" width="1"></td>
     </tr>
     <tr>
@@ -70,18 +70,18 @@ WEB.DE</a> die Möglichkeit, Ihre Fahrtroute direkt von Ihrem "Heimathafen" erste
     </tr>
     <tr>
         <td colspan="2"><font face="Verdana, Arial, Helvetica" size="2"><select name="fromcountry" tabindex="4" style="width: 178px">
-            <option value="---">Bitte wählen...</option>
+            <option value="---">Bitte wï¿½hlen...</option>
             <option value="BEL">Belgien</option>
-            <option value="DNK">Dänemark</option>
+            <option value="DNK">Dï¿½nemark</option>
             <option value="DEU">Deutschland</option>
             <option value="FRA">Frankreich</option>
-            <option value="GBR">Großbritannien</option>
+            <option value="GBR">Groï¿½britannien</option>
             <option value="ITA">Italien</option>
             <option value="LIE">Liechtenstein</option>
             <option value="LUX">Luxemburg</option>
             <option value="NLD">Niederlande</option>
             <option value="NOR">Norwegen</option>
-            <option value="AUT">Österreich</option>
+            <option value="AUT">ï¿½sterreich</option>
             <option value="PRT">Portugal</option>
             <option value="SWE">Schweden</option>
             <option value="CHE">Schweiz</option>
@@ -99,7 +99,7 @@ WEB.DE</a> die Möglichkeit, Ihre Fahrtroute direkt von Ihrem "Heimathafen" erste
         <td><font face="Verdana, Arial, Helvetica" size="2"><b>Villa Cosima</b></font></td>
         <td rowspan="3" width="1"></td>
     </tr>
-    <tr><td><font face="Verdana, Arial, Helvetica" size="2"><input type="hidden" name="tostreet" value="Badstraße 18">Badstraße 18</font></td></tr>
+    <tr><td><font face="Verdana, Arial, Helvetica" size="2"><input type="hidden" name="tostreet" value="Badstraï¿½e 18">Badstraï¿½e 18</font></td></tr>
     <tr><td><font face="Verdana, Arial, Helvetica" size="2"><input type="hidden" name="tocountry" value="DEU"><input type="hidden" name="toplz" value="17429"><input type="hidden" name="tocity" value="Seebad Bansin">D - 17429 Seebad Bansin</font></td></tr>
     </table>
     </td>
@@ -121,7 +121,7 @@ WEB.DE</a> die Möglichkeit, Ihre Fahrtroute direkt von Ihrem "Heimathafen" erste
 
       <table border="0" cellpadding="0" cellspacing="0" width="435">
       <tr>
-      <td width="435" bgcolor="#3399cc" class="headlines"><font color="#ffffff">Straßenanbindung</font></td>
+      <td width="435" bgcolor="#3399cc" class="headlines"><font color="#ffffff">Straï¿½enanbindung</font></td>
       </tr>
       </table>
  <?PHP $sueden= '
@@ -261,9 +261,9 @@ echo $brueckenoeffnungszeiten;
 
         </TD>
                                   <TD vAlign=top width="45%"><div align="right">
-                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Karte von Usedom','Beachten Sie bei der Fahrt nach Usedom bitte die Brückenöffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
+                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Karte von Usedom','Beachten Sie bei der Fahrt nach Usedom bitte die Brï¿½ckenï¿½ffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
                                         <br>
-                                        <a href="#" onclick="fenster('bilder/karte-bansin.gif','Übersicht Usedom','Haben Sie Bansin einmal erreicht ist es ein Kinderspiel zur Villa Cosima zu finden. Diese Karte soll Ihnen dabei helfen.')"></p>
+                                        <a href="#" onclick="fenster('bilder/karte-bansin.gif','ï¿½bersicht Usedom','Haben Sie Bansin einmal erreicht ist es ein Kinderspiel zur Villa Cosima zu finden. Diese Karte soll Ihnen dabei helfen.')"></p>
                                         <img src="bilder/karte-bansin.gif" alt="kompfortale Sitzgelegenheit an gro&szlig;en Fenstern" width="100" hspace="5" border=0 ></a></p>
 
                                     </div></TD>
@@ -277,4 +277,4 @@ echo $brueckenoeffnungszeiten;
                     </TABLE>
 
 
-<? include "fuss.inc.php";?>
+<? include "inc/footer.inc.php";?>

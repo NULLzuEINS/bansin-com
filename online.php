@@ -1,4 +1,4 @@
- <? include "kopf.inc.php";?>
+ <? include "inc/header.inc.php";?>
 
   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
       <TBODY>
@@ -73,7 +73,7 @@ echo"
             <option value=\"\">----</option>
             <option value=\"01\">Januar</option>
             <option value=\"02\">Frebruar</option>
-            <option value=\"03\">März</option>
+            <option value=\"03\">Mï¿½rz</option>
             <option value=\"04\">April</option>
             <option value=\"05\">Mai</option>
             <option value=\"06\">Juni</option>
@@ -109,7 +109,7 @@ echo"
     </table></FORM>";
   if ($ZielTag == "" || $ZielMonat == "" || $ZielJahr == "" )
      {
-      echo"<font color=red>Bitte wählen Sie eine Zeit</font>";
+      echo"<font color=red>Bitte wï¿½hlen Sie eine Zeit</font>";
      }
   else
     {
@@ -168,13 +168,13 @@ echo"
 
               if( ($JahresTag >= $HauptEinsVon && $JahresTag <= $HauptEinsBis ) || ($JahresTag >= $HauptZweiVon && $JahresTag <= $HauptZweiBis )|| ($JahresTag >= $HauptDreiVon && $JahresTag <= $HauptDreiBis ))
                    {
-                    echo "Zur Zeit ist Hauptsaison. Sie können sich bei uns in der Villa Cosima
-                          für nur 75€ am Tag einmieten und wundervolle Momente in Bansind und auf Usedom erleben.";
+                    echo "Zur Zeit ist Hauptsaison. Sie kï¿½nnen sich bei uns in der Villa Cosima
+                          fï¿½r nur 75ï¿½ am Tag einmieten und wundervolle Momente in Bansind und auf Usedom erleben.";
                 }
               if( ($JahresTag >= $ZwischenEinsVon && $JahresTag <= $ZwischenEinsBis ) || ($JahresTag >= $ZwischenZweiVon && $JahresTag <= $ZwischenZweiBis ))
                    {
-                    echo "Zur Zeit ist Zwischensaison. Sie können sich bei uns in der Villa Cosima
-                          für nur <b>55€</b> am Tag einmieten und wundervolle Momente in Bansind und auf Usedom erleben.";
+                    echo "Zur Zeit ist Zwischensaison. Sie kï¿½nnen sich bei uns in der Villa Cosima
+                          fï¿½r nur <b>55ï¿½</b> am Tag einmieten und wundervolle Momente in Bansind und auf Usedom erleben.";
                 }
               if( ($JahresTag >= $VorEinsVon && $JahresTag <= $VorEinsBis ) || ($JahresTag >= $VorZweiVon && $JahresTag <= $VorZweiBis ) )
                    {
@@ -183,8 +183,8 @@ echo"
                                             schn&auml;pchen machen k&ouml;nnen.
                                             Denn anl&auml;sslicher der etwas frischeren
                                             Jahreszeit haben wir die Preise f&uuml;r
-                                            sie gesenkt. Sie können sich bei uns in der Villa Cosima
-                          für nur <b>41€</b> am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
+                                            sie gesenkt. Sie kï¿½nnen sich bei uns in der Villa Cosima
+                          fï¿½r nur <b>41ï¿½</b> am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
                 }
 
 
@@ -202,4 +202,4 @@ echo"
                               </TBODY>
                             </TABLE>
 
- <? include "fuss.inc.php";?>
+ <? include "inc/footer.inc.php";?>

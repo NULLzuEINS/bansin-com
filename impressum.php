@@ -1,4 +1,4 @@
- <? include "kopf.inc.php";?>
+ <? include "inc/header.inc.php";?>
 
 <?PHP
 echo'
@@ -39,7 +39,7 @@ echo'
                    <tr><td>Inhalt</td>
                   <td><a href="mailto:r.lademann@aol.de">Roland Lademann</a></td>
                 </tr>
-                   <tr><td>Webdesign</td><td><a href="mailto:gefangen@web.de">André Lademann</a></td></tr>
+                   <tr><td>Webdesign</td><td><a href="mailto:gefangen@web.de">Andrï¿½ Lademann</a></td></tr>
                    <tr><td>Webhosting</td>
                   <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">all-inkl.de</font></td>
                 </tr>
@@ -55,5 +55,5 @@ echo'
                               </TBODY>
                             </TABLE>';
 
-include "fuss.inc.php";
+include "inc/footer.inc.php";
 ?>

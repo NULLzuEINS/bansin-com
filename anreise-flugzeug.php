@@ -1,5 +1,5 @@
- <? include "kopf.inc.php";?>
- <? include "image.inc.php";?>
+ <? include "inc/header.inc.php";?>
+ <? include "inc/image.inc.php";?>
  
    <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
                       <TBODY>
@@ -28,9 +28,9 @@
 <br>                          <span class="inhalt">                               <img src="bilder/flugzeug.jpg" alt=""   hspace="5" border=0 align=left>
 In Zirchow befindet sich der regionale
 <a href="http://www.flughafen-heringsdorf.de/" target="insel">Flughafen
-          Heringsdorf</a>, der einzige Flughafen Vorpommerns mit Linienverkehr. Die Länge der
-          Landebahn beträgt 2300m.
-          <br>Hier können Sie bei uns landen.</span><br>
+          Heringsdorf</a>, der einzige Flughafen Vorpommerns mit Linienverkehr. Die Lï¿½nge der
+          Landebahn betrï¿½gt 2300m.
+          <br>Hier kï¿½nnen Sie bei uns landen.</span><br>
                                     <br><br>
                                   
                                   
@@ -55,18 +55,18 @@ In Zirchow befindet sich der regionale
 
           <ul><li><b>Linienverbindungen</b><br>
 		  <ul><li>
-		  Im Sommer besteht zwischen D&uuml;sseldorf und der Insel ein Linienverkehr( Linienflüge  2003).<br>
-		  Zubringerflüge zum Flughafen D&uuml;sseldorf von <br>München, Stuttgart, London (STN), Paris (CDG),Zürich.<br>
-		  <li>Ab Mai mit der CIRRUS Airline von Mannheim, Saarbrücken oder Karlsruhe/Baden-Baden über Berlin auf die Insel Usedom
+		  Im Sommer besteht zwischen D&uuml;sseldorf und der Insel ein Linienverkehr( Linienflï¿½ge  2003).<br>
+		  Zubringerflï¿½ge zum Flughafen D&uuml;sseldorf von <br>Mï¿½nchen, Stuttgart, London (STN), Paris (CDG),Zï¿½rich.<br>
+		  <li>Ab Mai mit der CIRRUS Airline von Mannheim, Saarbrï¿½cken oder Karlsruhe/Baden-Baden ï¿½ber Berlin auf die Insel Usedom
 <br>
       Die CIRRUS Airline wird die Flugverbindung von Mannheim nach Berlin, von
-      Saarbrücken nach Berlin und von&nbsp;<br>
+      Saarbrï¿½cken nach Berlin und von&nbsp;<br>
       Karlsruhe/Baden-Baden nach Berlin an zwei Tagen in der Woche auf die Insel
-      Usedom verlängern.<br>
+      Usedom verlï¿½ngern.<br>
       Als Flugtage sind der Samstag und der Dienstag vorgesehen.
 		</ul>
-		<li><b>Bedarfscharter</b><br>Bedarfslinienflüge <br>
-			Berlin- THF, Güttin/Rügen, Güttin/Rundflug<br>
+		<li><b>Bedarfscharter</b><br>Bedarfslinienflï¿½ge <br>
+			Berlin- THF, Gï¿½ttin/Rï¿½gen, Gï¿½ttin/Rundflug<br>
 			Auch Charterfl&uuml;ge sind m&ouml;glich. <br>
 			<li><b>Rundfl&uuml;ge</b><br>
 			Rundfl&uuml;ge &uuml;ber die Insel und Umgebung.
@@ -84,9 +84,9 @@ In Zirchow befindet sich der regionale
              
         </TD>
                                   <TD vAlign=top width="45%"><div align="right">
-                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Usedom','Beachten Sie bei der Fahrt nach Rügen bitte die Brückenöffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
+                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Usedom','Beachten Sie bei der Fahrt nach Rï¿½gen bitte die Brï¿½ckenï¿½ffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
                                         <br>
-                                        <a href="#" onclick="fenster('bilder/karte-bansin.gif','Usedom Übersicht','Haben Sie Bansin einmal erreicht ist es ein Kinderspiel zur Villa Cosima zu finden. Diese Karte soll Ihnen dabei helfen.')"></p>
+                                        <a href="#" onclick="fenster('bilder/karte-bansin.gif','Usedom ï¿½bersicht','Haben Sie Bansin einmal erreicht ist es ein Kinderspiel zur Villa Cosima zu finden. Diese Karte soll Ihnen dabei helfen.')"></p>
                                         <img src="bilder/karte-bansin.gif" alt="kompfortale Sitzgelegenheit an gro&szlig;en Fenstern" width="100" hspace="5" border=0 ></a></p>
 
                                     </div></TD>
@@ -101,4 +101,4 @@ In Zirchow befindet sich der regionale
                     </TABLE>
                     
                     
-<? include "fuss.inc.php";?>
+<? include "inc/footer.inc.php";?>

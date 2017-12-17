@@ -1,5 +1,5 @@
 <?PHP
-include "kopf.inc.php";
+include "inc/header.inc.php";
 
 
 echo'
@@ -39,7 +39,7 @@ if(empty($NachrichtAbsenderName))
   return false;
   }
   if(document.kontaktforumlar.NachrichtInhalt.value == "")  {
-  alert("'.$HinweissOben.'Bitte geben Sie den Inhalt in das große Feld ein!'.$HinweissUnten.'");
+  alert("'.$HinweissOben.'Bitte geben Sie den Inhalt in das groï¿½e Feld ein!'.$HinweissUnten.'");
   document.kontaktforumlar.NachrichtInhalt.focus();
   return false;
   }
@@ -112,11 +112,11 @@ else
   {//1
   echo'
   <br><br><br><br><center>
-  <span class="intern-erlaeuterung">Ein Dankeschön für Ihre Email.<br>
-  Die Nachricht wird, wenn nötig, schnellst möglich beantwortet.<br>
+  <span class="intern-erlaeuterung">Ein Dankeschï¿½n fï¿½r Ihre Email.<br>
+  Die Nachricht wird, wenn nï¿½tig, schnellst mï¿½glich beantwortet.<br>
   Die Email wurde versandt an: <b>'.$KontaktEmail.'</b>
   <br><br>
-  Mit freundlichen Grüßen <br>
+  Mit freundlichen Grï¿½ï¿½en <br>
   '.$KontaktName.'<br>
   '. date("d.m.Y - H:i:s").'Uhr</span></center>';
   // EMAILBODY ##############
@@ -132,7 +132,7 @@ else
 
   Hallo '.$KontaktName .',
   Sie haben eine neue Nachricht erhalten.
-  Die Nachricht trägt folgenden Inhalt:
+  Die Nachricht trï¿½gt folgenden Inhalt:
  
   NachrichtAbsender: '.$NachrichtAbsenderName.' '.$NachrichtAbsenderEmail.'
   NachrichtBetreff : '.$NachrichtBetreff.'
@@ -140,7 +140,7 @@ else
   NachrichtInhalt: '.$NachrichtInhalt.'
 
 
-  Mit freundlichen Grüßen
+  Mit freundlichen Grï¿½ï¿½en
   '.$KontaktName.'
   '. date("d.m.Y - H:i:s").'Uhr
 
@@ -157,7 +157,7 @@ else
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
   <HTML><HEAD><TITLE>'.$KontaktInternet.' - '.$KontaktTitel.'</TITLE>
   <META content="'.$KontaktInternet.' - '.$KontaktTitel.'" name=description>
-  <META content="ferienwohnung,appartement,usedom,bansin, zinnowitz, heeringsdorf, polen, schifffahrt, verleih, ostsee, günstig, vermietung, mieten, baden, urlaub, meer, sonne ,lademann ,behm ,villa ,bilder, fotos, kanu, fahrrad, service, gratis, free" name=keywords>
+  <META content="ferienwohnung,appartement,usedom,bansin, zinnowitz, heeringsdorf, polen, schifffahrt, verleih, ostsee, gï¿½nstig, vermietung, mieten, baden, urlaub, meer, sonne ,lademann ,behm ,villa ,bilder, fotos, kanu, fahrrad, service, gratis, free" name=keywords>
   <META content=index,follow name=robots>
   <META content=de name=Content-Language>
   <META content="20 days" name=revisit-after>
@@ -196,7 +196,7 @@ else
 
    <b>Hallo ' . $KontaktName . ',</b><br><br>
    <font size="1">Sie haben eine neue Nachricht erhalten.
-   Die Nachricht trägt folgenden Inhalt:</font><br><br>
+   Die Nachricht trï¿½gt folgenden Inhalt:</font><br><br>
 
   <table border="0" stlye="font-size:9pt;">
   <tr valign="top"><td>NachrichtAbsenderName:</td><td><i>'.$NachrichtAbsenderName.'</i></td></tr>
@@ -209,7 +209,7 @@ else
 
   <br><br>
   <font size="1">
-  Mit freundlichen Grüßen<br>
+  Mit freundlichen Grï¿½ï¿½en<br>
   '.$NachrichtAbsenderName.'<br>
   '. date("d.m.Y - H:i:s").'Uhr<br>
   Das EmailSystem von '.$KontaktInternet.'
@@ -234,7 +234,7 @@ else
 
   <TR>
   <TD height=24 colspan="3" background="'.$ServerAdresse.'bilder/down.gif">
-  <DIV align=center>  <FONT face="Verdana, Arial, Helvetica, sans-serif" color=#ffffff size=1>© 2003-'. date(y).' by webs</FONT>  </DIV>  </TD>
+  <DIV align=center>  <FONT face="Verdana, Arial, Helvetica, sans-serif" color=#ffffff size=1>ï¿½ 2003-'. date(y).' by webs</FONT>  </DIV>  </TD>
   </TR>
   </TBODY>
   </TABLE>
@@ -260,4 +260,4 @@ echo'
 </tr>
 </table>';
 
-include "fuss.inc.php";?>
+include "inc/footer.inc.php";?>
