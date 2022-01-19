@@ -1,4 +1,4 @@
- <? include "inc/header.inc.php";
+ <?php include "inc/header.inc.php";
  echo'
   <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
       <TBODY>

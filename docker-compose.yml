@@ -1,0 +1,26 @@
+version: '3.5'
+
+services:
+  app:
+    image: vergissberlin/bansincom
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ${COMPOSE_PROJECT_NAME}-app
+    working_dir: /var/www/html
+    volumes:
+      - ./data/app:/var/www/html
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=${NETWORK}
+      - traefik.http.routers.${COMPOSE_PROJECT_NAME}.rule=Host(${DOMAINS})
+      - traefik.http.routers.${COMPOSE_PROJECT_NAME}.entrypoints=https
+      - traefik.http.routers.${COMPOSE_PROJECT_NAME}.tls=true
+      - traefik.http.routers.${COMPOSE_PROJECT_NAME}.tls.certresolver=letsencrypt
+      - traefik.http.services.${COMPOSE_PROJECT_NAME}.loadbalancer.server.port=${PORT}
+    restart: unless-stopped
+
+networks:
+  default:
+    external:
+      name: ${NETWORK}

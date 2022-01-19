@@ -1,5 +1,5 @@
- <? include "inc/header.inc.php";?>
- <? include "inc/image.inc.php";?>
+ <?php include "inc/header.inc.php";?>
+ <?php include "inc/image.inc.php";?>
  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
                       <TBODY>
                         <TR>
@@ -277,4 +277,4 @@ echo $brueckenoeffnungszeiten;
                     </TABLE>
 
 
-<? include "inc/footer.inc.php";?>
+ <?php include "inc/footer.inc.php";?>

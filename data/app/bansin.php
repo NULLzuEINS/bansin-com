@@ -1,4 +1,4 @@
- <? include "inc/header.inc.php";?>
+ <?php include "inc/header.inc.php";?>
 
 
     <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
@@ -58,4 +58,4 @@ Anziehungspunkt f�r Natur- und Wanderfreunde ist der "Naturlehrpfad M�mmelke
                       </TBODY>
                     </TABLE>
 
-<? include "inc/footer.inc.php";?>
+ <?php include "inc/footer.inc.php";?>

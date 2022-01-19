@@ -1,4 +1,4 @@
- <? include "inc/header.inc.php";?>
+ <?php include "inc/header.inc.php";?>
 
    <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
                       <TBODY>
@@ -203,4 +203,4 @@ if (document.forms.hafasziel){document.forms.formular.Z.value = document.forms.h
                     </TABLE>
                     
                     
-<? include "inc/footer.inc.php";?>
+ <?php include "inc/footer.inc.php";?>

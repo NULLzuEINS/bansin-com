@@ -1,4 +1,4 @@
- <? include "inc/header.inc.php";?>
+ <?php include "inc/header.inc.php";?>
 
 <?PHP
 echo'
