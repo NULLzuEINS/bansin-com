@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   app:
-    image: vergissberlin/bansincom
+    image: ghcr.io/nullzueins/bansin-com:main
     build:
       context: .
       dockerfile: Dockerfile
