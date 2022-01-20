@@ -1,18 +1,17 @@
- <?php include "inc/header.inc.php"; ?>
+<?php include "inc/header.inc.php"; ?>
 
-<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-    <TBODY>
-    <TR bgColor=#ffffff>
-        <TD vAlign=top width="71%" height="31">
-            <FONT face="Verdana, Arial, Helvetica, sans-serif" color=#333333 size=2>
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+    <tbody>
+    <tr bgColor=#ffffff>
+        <td vAlign=top width="71%" height="31">
+            <font face="Verdana, Arial, Helvetica, sans-serif" color=#333333 size=2>
                 <B><span class="ueberschrift">Herzlich Willkommen in den Ferien!</span></B>
-            </FONT>
-        </TD>
+            </font>
+        </td>
         <TD width="29%" height=25 rowSpan=2 align="left" valign="top">
             <br><br><br><IMG height=135 alt="" src="bilder/bansin/beach.jpg" hspace=20 class="rechtspalte">
         </TD>
-        <!-- <IMG height=135 alt="" src="bilder/sonnenstuhl.gif" width=120 vspace=20 hspace=20 class="rechtspalte"> //-->
-    </TR>
+    </tr>
     <TR bgColor=#ffffff>
         <TD vAlign=top width="71%" height=10>
             <hr size="1" color="#f0f0f0" class="trenner">
@@ -29,7 +28,7 @@
         <TD vAlign=top bgColor=#ffffff><font size="2" face="Verdana, Arial, Helvetica, sans-serif"> <span
                         class="inhalt">
         <?php
-
+/*
         if (date(L) == 0) {
             $HauptEinsVon = 170;
             $HauptEinsBis = 243;
@@ -86,13 +85,14 @@
                                             sie gesenkt. Sie k&ouml;nnen sich bei uns in der Villa Cosima
                           f&uuml;r nur <b>41 &euro;</b> am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
         }
+*/
         ?>
             </font></TD>
         <TD vAlign=top width="29%" height=128>
         </TD>
     </TR>
 
-    </TBODY>
-</TABLE>
+    </tbody>
+</table>
 
- <?php include "inc/footer.inc.php"; ?>
+<?php include "inc/footer.inc.php"; ?>
