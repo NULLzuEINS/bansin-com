@@ -11,35 +11,35 @@ echo'
 if(empty($NachrichtAbsenderName))
   {
   // SCHREIBEN
-  echo'
+  echo '
   <script type="text/javascript">
   <!--
   function chkFormular()
   {
   if(document.kontaktforumlar.NachrichtAbsenderName.value == "")  {
-  alert("'.$HinweissOben.'Bitte geben Sie Ihren Namen ein!'.$HinweissUnten.'");
+  alert("' . $HinweisOben . 'Bitte geben Sie Ihren Namen ein!' . $HinweisUnten . '");
   document.kontaktforumlar.NachrichtAbsenderName.focus();
   return false;
   }
   if(document.kontaktforumlar.NachrichtAbsenderEmail.value == "") {
-  alert("'.$HinweissOben.'Bitte Sie eine EmailAdresse an, unter der Sie erreichbar sind!'.$HinweissUnten.'");
+  alert("' . $HinweisOben . 'Bitte Sie eine EmailAdresse an, unter der Sie erreichbar sind!' . $HinweisUnten . '");
   document.kontaktforumlar.NachrichtAbsenderEmail.focus();
   return false;
   }
   if(document.kontaktforumlar.NachrichtAbsenderEmail.value != "") {
   if(document.kontaktforumlar.NachrichtAbsenderEmail.value.indexOf(\'@\') == -1) {
-  alert("'.$HinweissOben.'Bei der Emailadresse die Sie eingegeben haben stimmt @was nicht.'.$HinweissUnten.'");
+  alert("' . $HinweisOben . 'Bei der Emailadresse die Sie eingegeben haben stimmt @was nicht.' . $HinweisUnten . '");
   document.kontaktforumlar.NachrichtAbsenderEmail.focus();
   return false;
   }
   }
   if(document.kontaktforumlar.NachrichtBetreff.value == "")  {
-  alert("'.$HinweissOben.'Bitte geben Sie einen Betreff ein!'.$HinweissUnten.'");
+  alert("' . $HinweisOben . 'Bitte geben Sie einen Betreff ein!' . $HinweisUnten . '");
   document.kontaktforumlar.NachrichtBetreff.focus();
   return false;
   }
   if(document.kontaktforumlar.NachrichtInhalt.value == "")  {
-  alert("'.$HinweissOben.'Bitte geben Sie den Inhalt in das groï¿½e Feld ein!'.$HinweissUnten.'");
+  alert("' . $HinweisOben . 'Bitte geben Sie den Inhalt in das groï¿½e Feld ein!' . $HinweisUnten . '");
   document.kontaktforumlar.NachrichtInhalt.focus();
   return false;
   }
