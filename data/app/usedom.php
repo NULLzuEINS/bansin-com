@@ -25,13 +25,13 @@
                         size=1>.......................................................................................................</FONT><FONT
                         face="Verdana, Arial, Helvetica, sans-serif"
                         size=2><BR>
-Mit durchschnittlich 1906 Stunden hat die zweitgr��te deutsche Insel die h�chste Sonnenscheindauer in Deutschland.
-Die Insel Usedom(445 qkm) erreicht man von Ostern bis September mit dem Schiff von G�hren nach Peenem�nde
- oder mit dem Auto. Wie an einer Perlenschnur reihen sich an der K�ste die Orte Ahlbeck, Heringsdorf, Bansin,
- �ckeritz, K�lpinsee, Koserow, Zempin, Zinnowitz, Trassenheide und Karlshagen auf. Das Flair der altehrw�rdigen
- Seeb�der vermittelt einen individuellen Charme und l��t das kaiserliche Seebad der vorletzten Jahrhundertwende erahnen.
-  Nicht unbesucht sollte man den Ort Peenem�nde lassen, wo sich auf dem Gel�nde der ehemals streng geheimen
-  Heeresversuchsanstalt eine einmalige Ausstellung �ber die Entwicklungsgeschichte der deutschen Luft- und Raumfahrt
+Mit durchschnittlich 1906 Stunden hat die zweitgrï¿½ï¿½te deutsche Insel die hï¿½chste Sonnenscheindauer in Deutschland.
+Die Insel Usedom(445 qkm) erreicht man von Ostern bis September mit dem Schiff von Gï¿½hren nach Peenemï¿½nde
+ oder mit dem Auto. Wie an einer Perlenschnur reihen sich an der Kï¿½ste die Orte Ahlbeck, Heringsdorf, Bansin,
+ ï¿½ckeritz, Kï¿½lpinsee, Koserow, Zempin, Zinnowitz, Trassenheide und Karlshagen auf. Das Flair der altehrwï¿½rdigen
+ Seebï¿½der vermittelt einen individuellen Charme und lï¿½ï¿½t das kaiserliche Seebad der vorletzten Jahrhundertwende erahnen.
+  Nicht unbesucht sollte man den Ort Peenemï¿½nde lassen, wo sich auf dem Gelï¿½nde der ehemals streng geheimen
+  Heeresversuchsanstalt eine einmalige Ausstellung ï¿½ber die Entwicklungsgeschichte der deutschen Luft- und Raumfahrt
   sowie ein U-Boot Museum befindet.
 </FONT></TD>
                                 </TR>

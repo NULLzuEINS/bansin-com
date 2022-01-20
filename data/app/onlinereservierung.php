@@ -39,7 +39,7 @@ if(empty($NachrichtAbsenderName))
   return false;
   }
   if(document.kontaktforumlar.NachrichtInhalt.value == "")  {
-  alert("'.$HinweissOben.'Bitte geben Sie den Inhalt in das gro�e Feld ein!'.$HinweissUnten.'");
+  alert("'.$HinweissOben.'Bitte geben Sie den Inhalt in das groï¿½e Feld ein!'.$HinweissUnten.'");
   document.kontaktforumlar.NachrichtInhalt.focus();
   return false;
   }
@@ -50,7 +50,7 @@ if(empty($NachrichtAbsenderName))
   <TABLE BORDER=0 WIDTH="300" >
   <TR>
   <TD>
-  Zur Kontaktaufnahme ben�tigen wir zun�chst ein paar Daten von Ihnen, um Ihnen Ihre Best�tigung,
+  Zur Kontaktaufnahme benï¿½tigen wir zunï¿½chst ein paar Daten von Ihnen, um Ihnen Ihre Bestï¿½tigung,
   bzw. einen Alternativtermin zuzusenden.<br><br>
   </TD>
   </TR>
@@ -169,8 +169,8 @@ if(empty($NachrichtAbsenderName))
   else echo'<option value="01" >Januar</option>';
   if( date(m) == "02") echo'<option value="02" selected>Februar</option>';
   else echo'<option value="02" >Februar</option>';
-  if( date(m) == "03") echo'<option value="03" selected>M�rz</option>';
-  else echo'<option value="03" >M�rz</option>';
+  if( date(m) == "03") echo'<option value="03" selected>Mï¿½rz</option>';
+  else echo'<option value="03" >Mï¿½rz</option>';
   if( date(m) == "04") echo'<option value="04" selected>April</option>';
   else echo'<option value="04" >April</option>';
   if( date(m) == "05") echo'<option value="05" selected>Mai</option>';
@@ -206,10 +206,10 @@ if(empty($NachrichtAbsenderName))
   $Jahr =  date(Y);
   echo '
   <select name="WunschDauer" size="1" style="width:300px;" >
-  <option value="1" selected>f�r die Dauer von einem Tag.</option>';
+  <option value="1" selected>fï¿½r die Dauer von einem Tag.</option>';
   for($Tage=2;$Tage<30;$Tage++)
     echo'
-    <option value="'.$Tage.'" >f�r die Dauer von '.$Tage.' Tagen.</option>';
+    <option value="'.$Tage.'" >fï¿½r die Dauer von '.$Tage.' Tagen.</option>';
   echo'
   </select>
 
@@ -235,13 +235,13 @@ else
   {//1
   echo'
   <br><br><br><br><center>
-  <span class="intern-erlaeuterung">Ein Dankesch�n f�r Ihre Vorreservierung.<br>
-  Wir werden Ihnen schnellstm�glich Ihre Best�tigung, bzw. einen Alternativetermin zusenden.<br>
+  <span class="intern-erlaeuterung">Ein Dankeschï¿½n fï¿½r Ihre Vorreservierung.<br>
+  Wir werden Ihnen schnellstmï¿½glich Ihre Bestï¿½tigung, bzw. einen Alternativetermin zusenden.<br>
   Beachten Sie das dies <i>keine feste Reservierung</i> ist.
   <br>
   Die Reservierung wurde versandt an: <b>'.$KontaktEmail.'</b>
   <br><br>
-  Mit freundlichen Gr��en <br>
+  Mit freundlichen Grï¿½ï¿½en <br>
   '.$KontaktName.'<br>
   '. date("d.m.Y - H:i:s").'Uhr</span></center>';
   $NachrichtBetreff = 'OnlineReservierung';
@@ -258,7 +258,7 @@ else
 
   Hallo '.$KontaktName .',
   Sie haben eine neue Nachricht erhalten.
-  Die Nachricht tr�gt folgenden Inhalt:
+  Die Nachricht trï¿½gt folgenden Inhalt:
  
   NachrichtAbsender: '.$NachrichtAbsenderName.' '.$NachrichtAbsenderEmail.'
   NachrichtBetreff : '.$NachrichtBetreff.'
@@ -269,7 +269,7 @@ else
   NachrichtInhalt: '.$NachrichtInhalt.'
 
 
-  Mit freundlichen Gr��en
+  Mit freundlichen Grï¿½ï¿½en
   '.$KontaktName.'
   '. date("d.m.Y - H:i:s").'Uhr
 
@@ -286,7 +286,7 @@ else
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
   <HTML><HEAD><TITLE>'.$KontaktInternet.' - '.$KontaktTitel.'</TITLE>
   <META content="'.$KontaktInternet.' - '.$KontaktTitel.'" name=description>
-  <META content="ferienwohnung,appartement,usedom,bansin, zinnowitz, heeringsdorf, polen, schifffahrt, verleih, ostsee, g�nstig, vermietung, mieten, baden, urlaub, meer, sonne ,lademann ,behm ,villa ,bilder, fotos, kanu, fahrrad, service, gratis, free" name=keywords>
+  <META content="ferienwohnung,appartement,usedom,bansin, zinnowitz, heeringsdorf, polen, schifffahrt, verleih, ostsee, gï¿½nstig, vermietung, mieten, baden, urlaub, meer, sonne ,lademann ,behm ,villa ,bilder, fotos, kanu, fahrrad, service, gratis, free" name=keywords>
   <META content=index,follow name=robots>
   <META content=de name=Content-Language>
   <META content="20 days" name=revisit-after>
@@ -325,7 +325,7 @@ else
 
   <b>Hallo ' . $KontaktName . ',</b><br><br>
   <font size="1">Sie haben eine neue Nachricht erhalten.
-  Die Nachricht tr�gt folgenden Inhalt:</font><br><br>
+  Die Nachricht trï¿½gt folgenden Inhalt:</font><br><br>
 
   <table border="0" stlye="font-size:9pt;">
   <tr valign="top"><td><b>WunschDatum:</b></td><td><i>'.$WunschTag.'.'.$WunschMonat.'.'.$WunschJahr.'</i></td></tr>
@@ -341,7 +341,7 @@ else
 
   <br><br>
   <font size="1">
-  Mit freundlichen Gr��en<br>
+  Mit freundlichen Grï¿½ï¿½en<br>
   '.$NachrichtAbsenderName.'<br>
   '. date("d.m.Y - H:i:s").'Uhr<br>
   Das EmailSystem von '.$KontaktInternet.'
@@ -366,7 +366,7 @@ else
 
   <TR>
   <TD height=24 colspan="3" background="'.$ServerAdresse.'bilder/down.gif">
-  <DIV align=center>  <FONT face="Verdana, Arial, Helvetica, sans-serif" color=#ffffff size=1>� 2003-'. date(y).' by webs</FONT>  </DIV>  </TD>
+  <DIV align=center>  <FONT face="Verdana, Arial, Helvetica, sans-serif" color=#ffffff size=1>ï¿½ 2003-'. date(y).' by webs</FONT>  </DIV>  </TD>
   </TR>
   </TBODY>
   </TABLE>

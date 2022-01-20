@@ -13,7 +13,7 @@
 <center>
 <layer visibility="hide">
 <div style="display:none;" id="fpGalleryCaptions_516">
-<div><P>Die Villa Cosima</P></div><div><P>Die K�chenzeile</P></div><div><P>Die Sitzgelegenheit</P></div><div><P>Die Sitzgelegenheit</P></div><div><P>Das Wohnzimmer</P></div><div><P>Das Wohnzimmer</P></div><div><P>Das Schlafzimmer</P></div><div><P>Das Badezimmer</P></div></div>
+<div><P>Die Villa Cosima</P></div><div><P>Die Kï¿½chenzeile</P></div><div><P>Die Sitzgelegenheit</P></div><div><P>Die Sitzgelegenheit</P></div><div><P>Das Wohnzimmer</P></div><div><P>Das Wohnzimmer</P></div><div><P>Das Schlafzimmer</P></div><div><P>Das Badezimmer</P></div></div>
 <div style="display:none;" id="fpGalleryDescriptions_516">
 <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 </layer>
@@ -37,7 +37,7 @@
 		-->
 </script>
 <a target="_self" href="Javascript:fp_ShowImg(document['fpphoto_8131'],'435','326','516',0);"><img hspace="10" vspace="5" border="0" src="photogallery/photo4023/villacosima.jpg" id="fpphoto_8131" name="fpphoto_8131" lowsrc="bilder/ansicht/villacosima.jpg" width="90" height="68" title="Die Villa Cosima" align="absmiddle" /></a>
-<a target="_self" href="Javascript:fp_ShowImg(document['fpphoto_2232'],'435','326','516',1);"><img hspace="10" vspace="5" border="0" src="photogallery/photo4023/kueche.jpg" id="fpphoto_2232" name="fpphoto_2232" lowsrc="bilder/ansicht/kueche.jpg" width="90" height="68" title="Die K�chenzeile" align="absmiddle" /></a>
+<a target="_self" href="Javascript:fp_ShowImg(document['fpphoto_2232'],'435','326','516',1);"><img hspace="10" vspace="5" border="0" src="photogallery/photo4023/kueche.jpg" id="fpphoto_2232" name="fpphoto_2232" lowsrc="bilder/ansicht/kueche.jpg" width="90" height="68" title="Die Kï¿½chenzeile" align="absmiddle" /></a>
 <a target="_self" href="Javascript:fp_ShowImg(document['fpphoto_1116'],'435','326','516',2);"><img hspace="10" vspace="5" border="0" src="photogallery/photo4023/sitzgelegenheit.jpg" id="fpphoto_1116" name="fpphoto_1116" lowsrc="bilder/ansicht/sitzgelegenheit.jpg" width="90" height="68" title="Die Sitzgelegenheit" align="absmiddle" /></a>
 <a target="_self" href="Javascript:fp_ShowImg(document['fpphoto_1810'],'435','326','516',3);"><img hspace="10" vspace="5" border="0" src="photogallery/photo4023/sitzgelegenheiten.jpg" id="fpphoto_1810" name="fpphoto_1810" lowsrc="bilder/ansicht/sitzgelegenheiten.jpg" width="90" height="68" title="Die Sitzgelegenheit" align="absmiddle" /></a>
 <a target="_self" href="Javascript:fp_ShowImg(document['fpphoto_2980'],'435','326','516',4);"><img hspace="10" vspace="5" border="0" src="photogallery/photo4023/wohnzimmerfenster.jpg" id="fpphoto_2980" name="fpphoto_2980" lowsrc="bilder/ansicht/wohnzimmerfenster.jpg" width="90" height="68" title="Das Wohnzimmer" align="absmiddle" /></a>

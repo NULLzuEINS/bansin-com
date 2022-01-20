@@ -19,24 +19,24 @@
                                     
                 <table width="500" height="80" border="0" cellspacing="1" bordercolorlight="#CCCCCC" bordercolordark="#CCCCCC" bgcolor="#FFFFFF">
                   <tr> 
-                    <td colSpan="3" width="465"><b>Preis pro �bernachtung<font face="Times New Roman, Times, serif">*</font></b></td>
+                    <td colSpan="3" width="465"><b>Preis pro ï¿½bernachtung<font face="Times New Roman, Times, serif">*</font></b></td>
                   </tr>
                   <tr> 
                     <td width="124" height="14" bgcolor="#3399CC"><font color="#FFFFFF" size="2">HS</font></td>
                     <td width="211" bgcolor="#3399CC"><font color="#FFFFFF" size="2">Hauptsaison</font></td>
-                    <td width="159" align="right" bgcolor="#3399CC"><b><font color="#FFFFFF" size="2">� 
+                    <td width="159" align="right" bgcolor="#3399CC"><b><font color="#FFFFFF" size="2">ï¿½ 
                       75,00</font></b></td>
                   </tr>
                   <tr> 
                     <td width="124" height="18" bgcolor="#FFCC33"><font size="2">ZS</font></td>
                     <td width="211" height="18" bgcolor="#FFCC33"><font size="2">Zwischensaison</font></td>
-                    <td width="159" height="18" align="right" bgcolor="#FFCC33"><font size="2"><b>� 
+                    <td width="159" height="18" align="right" bgcolor="#FFCC33"><font size="2"><b>ï¿½ 
                       5<font face="Verdana, Arial, Helvetica, sans-serif">7</font>,00</b></font></td>
                   </tr>
                   <tr bgColor="#f0f0f0"> 
                     <td width="124"><font color="#000000" size="2" face="Verdana, Arial, Helvetica, sans-serif">V</font><font color="#000000" size="2">S</font></td>
                     <td width="211"><font color="#000000" size="2" face="Verdana, Arial, Helvetica, sans-serif">Vor</font><font color="#000000" size="2">saison</font></td>
-                    <td width="159" align="right"><font color="#000000" size="2"><b>� 
+                    <td width="159" align="right"><font color="#000000" size="2"><b>ï¿½ 
                       41,00</b></font></td>
                   </tr>
                 </table>
@@ -183,7 +183,7 @@
                   </tr>
                   <tr> 
                     <td width="10" style="border-left-style: solid; border-left-width: 1" height="10" align="right"> 
-                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1">M�rz</font></td>
+                      <font face="Verdana, Arial, Helvetica, sans-serif" size="1">Mï¿½rz</font></td>
                     <td width="10" bgcolor="f0f0f0" height="10" align="center"><font color="#CCCC99" size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
                     <td width="10" bgcolor="f0f0f0" height="10" align="center"><font color="#CCCC99" size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
                     <td width="10" bgcolor="f0f0f0" height="10" align="center"><font color="#CCCC99" size="1" face="Verdana, Arial, Helvetica, sans-serif">&nbsp;</font></td>
@@ -578,12 +578,12 @@
                                         
       <td colSpan="3" width="700"><p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
           * zzgl. Nebenkosten:<br>
-          - orts�bliche Kurtaxe zur Zeit � 3,20 pro Person<br>
-          - Endreinigung � 25,00<br>
-          - die angegebenen Preise verstehen sich f�r zwei Personen<br>
+          - ortsï¿½bliche Kurtaxe zur Zeit ï¿½ 3,20 pro Person<br>
+          - Endreinigung ï¿½ 25,00<br>
+          - die angegebenen Preise verstehen sich fï¿½r zwei Personen<br>
           </font><font size="1" face="Verdana, Arial, Helvetica, sans-serif">- 
-          Aufbettung f�r zwei weitere Personen sind m�glich. Pro Erw .Tag&Pers 
-          12� pro Kind 6� <br>
+          Aufbettung fï¿½r zwei weitere Personen sind mï¿½glich. Pro Erw .Tag&Pers 
+          12ï¿½ pro Kind 6ï¿½ <br>
           </font></p>
           <FONT  face="Verdana, Arial, Helvetica, sans-serif" size=2> <span class="inhalt">
           Falls Sie die Ferienwohnung buchen wollen, schreiben Sie einfach eine Email indem Sie <a href="mailform.php">HIER</a> klicken.

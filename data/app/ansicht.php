@@ -38,7 +38,7 @@
                         size=2>Wintergarten mit Esstisch</FONT></li>
                   <li><FONT
                         face="Verdana, Arial, Helvetica, sans-serif"
-                        size=2>Wohnzimmer mit K�chenzeile</FONT></li>
+                        size=2>Wohnzimmer mit Kï¿½chenzeile</FONT></li>
                   <li><FONT
                         face="Verdana, Arial, Helvetica, sans-serif"
                         size=2>Kabel-TV, Stereoanlage, Telefon</FONT></li>

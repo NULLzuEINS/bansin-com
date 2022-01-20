@@ -13,14 +13,14 @@
              <TD vAlign=top width="71%" height=10>
                 <hr size="1" color="#f0f0f0" class="trenner">
                 <FONT  face="Verdana, Arial, Helvetica, sans-serif" size=2>
-                <span class="inhalt">Den aktuellen Ferienplan k�nnen Sie sich direkt vom Kultusminesterium herunterladen und ausdrucken.
+                <span class="inhalt">Den aktuellen Ferienplan kï¿½nnen Sie sich direkt vom Kultusminesterium herunterladen und ausdrucken.
                 <ul>
                 <li style="color:3399CC"><a href="http://www.kmk.org/service/ferien/fer0203.pdf" target="_blank">Ferienplan 2002/2003    <img src="bilder/pdficon.gif" border="0" haspace=0 vspace=0 height=16></a></li>
                 <li style="color:3399CC"><a href="http://www.kmk.org/service/ferien/fer0304.pdf" target="_blank">Ferienplan 2003/2004 <img src="bilder/pdficon.gif" border="0" haspace=0 vspace=0 height=16></a></li>
                 <li style="color:3399CC"><a href="http://www.kmk.org/service/ferien/fer0405.pdf" target="_blank">Ferienplan 2004/2005  <img src="bilder/pdficon.gif" border="0" haspace=0 vspace=0 height=16></a></li>
                 <li style="color:3399CC"><a href="http://www.kmk.org/service/ferien/fer0304.pdf" target="_blank">Ferienplan 2003/2004  <img src="bilder/pdficon.gif" border="0" haspace=0 vspace=0 height=16></a></li>
                 </ul>                <hr size="1" color="#f0f0f0" class="trenner">
-                    Zum Lesen der Dokumente wird <a href="http://www.adobe.de/products/acrobat/readstep.html">Acrobat Reader 4.X</a> ben�tigt.<br>
+                    Zum Lesen der Dokumente wird <a href="http://www.adobe.de/products/acrobat/readstep.html">Acrobat Reader 4.X</a> benï¿½tigt.<br>
                     <span class="quelle">Quelle: http://www.kmk.org/</span><br><br>
 <TABLE BORDER=0 CELLSPACING=0 cellpadding=0 WIDTH=560 vspace="0" hspace="0">
 
@@ -53,7 +53,7 @@
   </TR>
   <TR>
     <TD WIDTH="5" VALIGN="MIDDLE">&nbsp;</TD>
-    <td bgcolor=#ffffff height="35" class="erlaeuterung"><b>BadenW�rttemberg</b></td>
+    <td bgcolor=#ffffff height="35" class="erlaeuterung"><b>BadenWï¿½rttemberg</b></td>
     <td align=middle bgcolor=#ffffff class="erlaeuterung">
       <div  ALIGN="left" class="erlaeuterung">14.04.  26.04.</div>
     </td>
@@ -293,7 +293,7 @@
   </TR>
   <TR>
     <TD WIDTH="5" VALIGN="MIDDLE">&nbsp;</TD>
-    <td bgcolor=#f0f0f0 height="35" class="erlaeuterung"><b>Th�ringen</b></td>
+    <td bgcolor=#f0f0f0 height="35" class="erlaeuterung"><b>Thï¿½ringen</b></td>
     <td align=middle bgcolor=#f0f0f0 >
       <div  ALIGN="left" class="erlaeuterung">14.04.  25.04.</div>
     </td>
@@ -353,7 +353,7 @@
   </TR>
   <TR>
     <TD WIDTH="5" VALIGN="MIDDLE">&nbsp;</TD>
-    <td bgcolor=#f0f0f0 height="35" class="erlaeuterung"><b>Nieder�sterreich</b></td>
+    <td bgcolor=#f0f0f0 height="35" class="erlaeuterung"><b>Niederï¿½sterreich</b></td>
     <td align=middle bgcolor=#f0f0f0 >
       <div  ALIGN="left" class="erlaeuterung">12.4.  22.4.</div>
     </td>
@@ -385,7 +385,7 @@
   </TR>
   <TR>
     <TD WIDTH="5" VALIGN="MIDDLE">&nbsp;</TD>
-    <td bgcolor=#f0f0f0 height="35" class="erlaeuterung"><b>Ober�sterreich</b></td>
+    <td bgcolor=#f0f0f0 height="35" class="erlaeuterung"><b>Oberï¿½sterreich</b></td>
     <td align=middle bgcolor=#f0f0f0 >
       <div  ALIGN="left" class="erlaeuterung">12.4.  22.4.</div>
     </td>
@@ -433,7 +433,7 @@
   </TR>
   <TR>
     <TD WIDTH="5" VALIGN="MIDDLE">&nbsp;</TD>
-    <td bgcolor=#ffffff height="35" class="erlaeuterung"><b>K�rnten</b></td>
+    <td bgcolor=#ffffff height="35" class="erlaeuterung"><b>Kï¿½rnten</b></td>
     <td align=middle bgcolor=#ffffff >
       <div  ALIGN="left" class="erlaeuterung">12.4.  22.4.</div>
     </td>

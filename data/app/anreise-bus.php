@@ -26,7 +26,7 @@
 <br>     <span class="inhalt">
      <img src="bilder/bus.jpg" alt="Ihre Ferienwohnung ist rot markiert" hspace="5" border=0 align=left>
 
-Mit einem der vielen Linienbusse, die regelm��ig zwischen Bansin und Gro�st�dten verkehren, kommen Sie stressfrei zur Villa Cosima.<br>Schauen Sie in den Fahrpl�nen, ob auch aus Ihrer N�he ein Linienbus verkehrt.<br><br>
+Mit einem der vielen Linienbusse, die regelmï¿½ï¿½ig zwischen Bansin und Groï¿½stï¿½dten verkehren, kommen Sie stressfrei zur Villa Cosima.<br>Schauen Sie in den Fahrplï¿½nen, ob auch aus Ihrer Nï¿½he ein Linienbus verkehrt.<br><br>
 
             </span><br><br><br><br>
 

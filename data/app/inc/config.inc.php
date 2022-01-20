@@ -8,7 +8,7 @@
  $KontaktEmail        = 'rlademann@web.de';
  $KontaktEmailKopie   = 'gefangen@web.de';
  $KontaktName         = 'Roland Lademann';
- $KontaktUnterschrift = 'Sch�ne Ferien!';
+ $KontaktUnterschrift = 'SchÃ¶ne Ferien!';
     
 
  $HinweissOben  = '#####################################\n\n\n';

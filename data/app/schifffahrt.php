@@ -16,7 +16,7 @@
                 <hr size="1" color="#f0f0f0" class="trenner">
                 <FONT  face="Verdana, Arial, Helvetica, sans-serif" size=2>
                 <span class="inhalt">
-In Basin und den anderen beiden Kaiserb�der, legen T�glich Schiffe an, die Sie zu Rund und �berfahrten auf der Ostsee einladen. Bei guter Sicht ist das ein wunderbares Erlebnis, welches sie nicht missen sollten.
+In Basin und den anderen beiden Kaiserbï¿½der, legen Tï¿½glich Schiffe an, die Sie zu Rund und ï¿½berfahrten auf der Ostsee einladen. Bei guter Sicht ist das ein wunderbares Erlebnis, welches sie nicht missen sollten.
 <br><br>Zur Zeit verkehren folgende Schiffe:<br><br>
 <?PHP
               if( (date(n) >= 1 && date(n) <= 9 ) || (date(z) >= $HauptZweiVon && date(z) <= $HauptZweiBis ) || (date(z) >= $HauptDreiVon && date(z) <= $HauptDreiBis ) ||(date(z) >= $HauptVierVon && date(z) <= $HauptVierBis )  )

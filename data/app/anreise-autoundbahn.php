@@ -49,7 +49,7 @@
     <table border="0" cellpadding="2" cellspacing="2" width="198">
     <tr>
         <td rowspan="3" width="1"></td>
-        <td colspan="2" width="180"><font face="Verdana, Arial, Helvetica" size="3"><input type="TEXT" name="fromstreet" value="Stra�e" size="12" style="width: 178px" tabindex="1" onfocus="javascript:if (document.webderoute2.fromstreet.value == 'Stra�e') document.webderoute2.fromstreet.value = '';"></font></td>
+        <td colspan="2" width="180"><font face="Verdana, Arial, Helvetica" size="3"><input type="TEXT" name="fromstreet" value="Straï¿½e" size="12" style="width: 178px" tabindex="1" onfocus="javascript:if (document.webderoute2.fromstreet.value == 'Straï¿½e') document.webderoute2.fromstreet.value = '';"></font></td>
         <td rowspan="3" width="1"></td>
     </tr>
     <tr>
@@ -58,18 +58,18 @@
     </tr>
     <tr>
         <td colspan="2"><font face="Verdana, Arial, Helvetica" size="2"><select name="fromcountry" tabindex="4" style="width: 178px">
-            <option value="---">Bitte w�hlen...</option>
+            <option value="---">Bitte wï¿½hlen...</option>
             <option value="BEL">Belgien</option>
-            <option value="DNK">D�nemark</option>
+            <option value="DNK">Dï¿½nemark</option>
             <option value="DEU">Deutschland</option>
             <option value="FRA">Frankreich</option>
-            <option value="GBR">Gro�britannien</option>
+            <option value="GBR">Groï¿½britannien</option>
             <option value="ITA">Italien</option>
             <option value="LIE">Liechtenstein</option>
             <option value="LUX">Luxemburg</option>
             <option value="NLD">Niederlande</option>
             <option value="NOR">Norwegen</option>
-            <option value="AUT">�sterreich</option>
+            <option value="AUT">ï¿½sterreich</option>
             <option value="PRT">Portugal</option>
             <option value="SWE">Schweden</option>
             <option value="CHE">Schweiz</option>
@@ -87,7 +87,7 @@
         <td><font face="Verdana, Arial, Helvetica" size="2"><b>Villa Cosima</b></font></td>
         <td rowspan="3" width="1"></td>
     </tr>
-    <tr><td><font face="Verdana, Arial, Helvetica" size="2"><input type="hidden" name="tostreet" value="Schulstra�e 7">Schulstra�e 7</font></td></tr>
+    <tr><td><font face="Verdana, Arial, Helvetica" size="2"><input type="hidden" name="tostreet" value="Schulstraï¿½e 7">Schulstraï¿½e 7</font></td></tr>
     <tr><td><font face="Verdana, Arial, Helvetica" size="2"><input type="hidden" name="tocountry" value="DEU"><input type="hidden" name="toplz" value="17429"><input type="hidden" name="tocity" value="Seebad Bansin">D - 17429 Seebad Bansin</font></td></tr>
     </table>
     </td>

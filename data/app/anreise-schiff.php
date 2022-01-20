@@ -41,9 +41,9 @@
 
         </TD>
                                   <TD vAlign=top width="45%"><div align="right">
-                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Usedom','Beachten Sie bei der Fahrt nach R�gen bitte die Br�cken�ffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
+                                      <br><br><a  href="#" onclick="fenster('bilder/karte-usedom.gif','Usedom','Beachten Sie bei der Fahrt nach Rï¿½gen bitte die Brï¿½ckenï¿½ffnungszeiten.')" ><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="5" border=0></a><br>
                                         <br>
-                                        <a href="#" onclick="fenster('bilder/karte-bansin.gif','Usedom �bersicht','Haben Sie Bansin einmal erreicht ist es ein Kinderspiel zur Villa Cosima zu finden. Diese Karte soll Ihnen dabei helfen.')"></p>
+                                        <a href="#" onclick="fenster('bilder/karte-bansin.gif','Usedom ï¿½bersicht','Haben Sie Bansin einmal erreicht ist es ein Kinderspiel zur Villa Cosima zu finden. Diese Karte soll Ihnen dabei helfen.')"></p>
                                         <img src="bilder/karte-bansin.gif" alt="kompfortale Sitzgelegenheit an gro&szlig;en Fenstern" width="100" hspace="5" border=0 ></a></p>
 
                                     </div></TD>

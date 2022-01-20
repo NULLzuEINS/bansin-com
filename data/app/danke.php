@@ -15,7 +15,7 @@
              <TD vAlign=top width="71%" height=10>
                 <hr size="1" color="#f0f0f0" class="trenner">
         <FONT  face="Verdana, Arial, Helvetica, sans-serif" size=2> <span class="inhalt"> 
-        Ihre Email wurde erfolgreich versendet. Wir werden Sie baldm�glichst Kontaktieren.</span></FONT></TD>
+        Ihre Email wurde erfolgreich versendet. Wir werden Sie baldmï¿½glichst Kontaktieren.</span></FONT></TD>
 <td></td>
                                 </TR>
                               </TBODY>
