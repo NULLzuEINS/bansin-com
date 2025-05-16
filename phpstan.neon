@@ -1,0 +1,14 @@
+parameters:
+    level: 5
+    paths:
+        - .
+    excludePaths:
+        - vendor/*
+        - node_modules/*
+    ignoreErrors:
+        - '#PHPDoc tag @var#'
+        - '#Call to an undefined method [a-zA-Z0-9\\_]+::get\(\)#'
+        - '#Call to an undefined method [a-zA-Z0-9\\_]+::set\(\)#'
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+    treatPhpDocTypesAsCertain: false 

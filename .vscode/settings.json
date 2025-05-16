@@ -1,0 +1,23 @@
+{
+    "php.validate.enable": true,
+    "php.suggest.basic": true,
+    "php.executablePath": "/usr/local/bin/php",
+    "php.validate.run": "onType",
+    "php.lint.enable": true,
+    "php.lint.run": "onType",
+    "php.lint.phpcs.enable": true,
+    "php.lint.phpcs.standard": "PSR12",
+    "php.lint.phpcs.executablePath": "/usr/local/bin/phpcs",
+    "php.lint.phpcs.ignorePatterns": [
+        "*/vendor/*",
+        "*/node_modules/*"
+    ],
+    "php.lint.phpstan.enable": true,
+    "php.lint.phpstan.executablePath": "/usr/local/bin/phpstan",
+    "php.lint.phpstan.level": 5,
+    "php.lint.phpstan.configFile": "phpstan.neon",
+    "php.lint.phpstan.ignorePatterns": [
+        "*/vendor/*",
+        "*/node_modules/*"
+    ]
+} 

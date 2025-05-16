@@ -1,4 +1,4 @@
- <?php include "inc/header.inc.php";?>
+<?php include "inc/header.inc.php";?>
 
 <?PHP
 echo'
@@ -26,8 +26,8 @@ echo'
                 16321 Bernau<br>
                 Telefon 033 387 580 10<br>
                 Telefax 033 387 580 10<br>
-                Email <a href="mailform.php"> '.$KontaktEmail.'</a><br>
-                Internet <a href="http://bansin.com" target="ferien">'.$KontaktInternet.'</a><br>
+                Email <a href="mailform.php"> <?= $contactEmail ?></a><br>
+                Internet <a href="http://bansin.com" target="ferien"><?= $contactWebsite ?></a><br>
                 <br>
                 </td>
                 </tr>

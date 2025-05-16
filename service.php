@@ -24,7 +24,7 @@
         16321 Bernau<br>
         Telefon 033 387 580 10<br>
         Telefax 033 387 580 10<br>
-        Email <a href="mailform.php"><?= $KontaktEmail ?></a><br><br>
+        Email <a href="mailform.php"><?= $contactEmail ?></a><br><br>
 
         Und Vorort steht ihnen zusätzlich Herrn Holger Müller als Ansprechparnter zur Verfügung.</span></FONT>
         </TD>

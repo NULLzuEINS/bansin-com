@@ -1,13 +1,15 @@
 <?php
- $ServerAdresse      = 'https://bansin.com/';
+mb_internal_encoding('UTF-8');
 
- $KontaktTitel        = 'Ihre Ferienwohnung in Bansin an der Ostsee';
- $KontaktInternet     = 'Villa Cosima';
- $KontaktEmail        = 'rlademann@web.de';
- $KontaktEmailKopie   = 'gefangen@web.de';
- $KontaktName         = 'Roland Lademann';
- $KontaktUnterschrift = 'Ein schöner Urlaub!';
+$serverAddress      = 'https://bansin.com/';
 
- $HinweisOben  = '###########################\n\n\n';
- $HinweisUnten = '\n\n\n############### bansin.com ####';
- ?>
+$contactTitle        = 'Ihre Ferienwohnung in Bansin an der Ostsee';
+$contactWebsite     = 'Villa Cosima';
+$contactEmail        = 'rlademann@web.de';
+$contactEmailCopy   = 'gefangen@web.de';
+$contactName         = 'Roland Lademann';
+$contactSignature = 'Ein schöner Urlaub!';
+
+$noticeTop  = '###########################\n\n\n';
+$noticeBottom = '\n\n\n############### bansin.com ####';
+?>
