@@ -54,26 +54,23 @@
   </tbody>
 </table>
 
-<script language="javascript">
+<script>
+  // Set target station if available
   if (document.forms.hafasziel) {
     document.forms.formular.Z.value = document.forms.hafasziel.zielbahnhof.value;
   }
-  var jetzt = new Date();
-  if (jetzt.getMinutes() > 9) {
-    document.formular.time.value = (jetzt.getHours() + ":" + jetzt.getMinutes());
-  } else {
-    document.formular.time.value = (jetzt.getHours() + ":0" + jetzt.getMinutes());
-  }
-  var monat = jetzt.getMonth();
-  monat++;
-  var jahr = jetzt.getYear();
-  if (jahr < 200) jahr += 1900;
-  if (jahr < 1999) jahr += 100;
-  if (monat > 9) {
-    document.formular.date.value = (jetzt.getDate() + "." + monat + "." + jahr);
-  } else {
-    document.formular.date.value = (jetzt.getDate() + ".0" + monat + "." + jahr);
-  }
+
+  // Set current time
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes().toString().padStart(2, '0');
+  document.formular.time.value = `${hours}:${minutes}`;
+
+  // Set current date
+  const day = now.getDate();
+  const month = (now.getMonth() + 1).toString().padStart(2, '0');
+  const year = now.getFullYear();
+  document.formular.date.value = `${day}.${month}.${year}`;
 </script>
 
 <?php include "inc/footer.inc.php"; ?>
