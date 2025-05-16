@@ -1,33 +1,24 @@
  <?php include "inc/header.inc.php"; ?>
 
- <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-   <TBODY>
-     <TR>
-       <TD align="left" valign="top">
-         <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-           <TBODY>
-             <TR bgColor=#ffffff>
-               <TD height=41 colspan="2" vAlign=top>
+ <table cellspacing="0" cellpadding="0" width="100%" border="0">
+   <tbody>
+     <tr>
+       <td align="left" valign="top">
+         <table cellspacing="0" cellpadding="0" width="100%" border="0">
+           <tbody>
+             <tr bgcolor="#ffffff">
+               <td height="41" colspan="2" valign="top">
                  <font
                    face="Verdana, Arial, Helvetica, sans-serif"
-                   size=2><strong>Anreisen mit System!</strong></font>
-                 <FONT
+                   size="2"><strong>Anreisen mit System!</strong></font>
+                 <font
                    face="Verdana, Arial, Helvetica, sans-serif"
-                   color=#333333 size=2><B>!</B></FONT>
-               </TD>
-             </TR>
-             <TR bgColor=#ffffff>
-               <TD vAlign=top width="55%" height=260>
+                   color="#333333" size="2"><b>!</b></font>
+               </td>
+             </tr>
+             <tr bgcolor="#ffffff">
+               <td valign="top" width="55%" height="260">
                  Mit dem Auto..
-
-
-
-
-
-
-
-
-
                  <table border="0" cellpadding="0" cellspacing="0" width="435">
                    <tr>
                      <td height="2" colspan="9" valign="top"><img src="http://img.web.de/v/p.gif" border="0" width="435" height="2" alt=""></td>
@@ -135,13 +126,13 @@
 
 
 
-                 <!-- #################     DIE BAHN ############ //-->
+                 <!-- ################# DIE BAHN ############ //-->
 
-                 <table width="435" border="0" cellspacing="0" cellpadding="0" align=left bgcolor="#f0f0f0">
+                 <table width="435" border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#f0f0f0">
                    <tr>
-                     <form action="http://reiseauskunft.bahn.de/bin/query.exe/dn?L=dbag&datesel=custom" method="post" name="formular" target="bahn">
+                     <form action="http://reiseauskunft.bahn.de/bin/query.exe/dn?l=" dbag&datesel=custom"" method="post" name="formular" target="bahn">
                        <td>
-                         <table width="150" border="0" cellspacing="0" cellpadding="2" align=left>
+                         <table width="150" border="0" cellspacing="0" cellpadding="2" align="left">
                            <tr>
                              <td class="tabklein">&nbsp;von:</td>
                              <td align="right" colspan="2">
@@ -231,24 +222,24 @@
 
 
 
- </TD>
- <TD vAlign=top width="45%">
+ </td>
+ <td valign="top" width="45%">
    <div align="right">
-     <p><a href="karte-usedom.htm"><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="20" border=0></a><br>
+     <p><a href="karte-usedom.htm"><img src="bilder/karte-usedom.gif" alt="Ihre Ferienwohnung ist rot markiert" width="100" hspace="20" border="0"></a><br>
        <br>
-       <a href="karte-bansin.htm"><img src="bilder/karte-bansin.gif" alt="kompfortale Sitzgelegenheit an gro&szlig;en Fenstern" width="100" hspace="20" border=0></a>
+       <a href="karte-bansin.htm"><img src="bilder/karte-bansin.gif" alt="kompfortale Sitzgelegenheit an gro&szlig;en Fenstern" width="100" hspace="20" border="0"></a>
      </p>
 
    </div>
- </TD>
- </TR>
- </TBODY>
- </TABLE>
+ </td>
+ </tr>
+ </tbody>
+ </table>
 
- </TD>
- </TR>
- </TBODY>
- </TABLE>
+ </td>
+ </tr>
+ </tbody>
+ </table>
 
 
  <?php include "inc/footer.inc.php"; ?>

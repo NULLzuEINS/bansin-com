@@ -52,7 +52,7 @@
                 <table width="435" border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#f0f0f0">
                   <tr>
                     <td>
-                      <form action="http://reiseauskunft.bahn.de/bin/query.exe/dn?L=dbag&datesel=custom" method="post" name="formular" target="bahn">
+                      <form action="http://reiseauskunft.bahn.de/bin/query.exe/dn?l=" dbag&datesel=custom"" method="post" name="formular" target="bahn">
                         <table width="150" border="0" cellspacing="0" cellpadding="2" align="left">
                           <tr>
                             <td class="erlaeuterung">&nbsp;von:</td>

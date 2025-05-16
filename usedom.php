@@ -1,36 +1,35 @@
-<?php header('Content-Type: text/html; charset=utf-8'); ?>
 <?php include "inc/header.inc.php"; ?>
 
 
-<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-  <TBODY>
-    <TR>
-      <TD align="left" valign="top">
-        <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-          <TBODY>
-            <TR bgColor=#ffffff>
-              <TD vAlign=top width="71%" height=41>
-                <FONT
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td align="left" valign="top">
+        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+          <tbody>
+            <tr bgcolor="#ffffff">
+              <td valign="top" width="71%" height="41">
+                <font
                   face="Verdana, Arial, Helvetica, sans-serif"
-                  color=#333333 size=2><B>Usedom die Sonneninsel!</B></FONT>
-              </TD>
-              <TD width="29%" height=25 rowSpan=2 align="left" valign="top">
-                <DIV align=right> <BR>
-                  <BR>
+                  color="#333333" size="2"><b>Usedom die Sonneninsel!</b></font>
+              </td>
+              <td width="29%" height="25" rowspan="2" align="left" valign="top">
+                <div align="right"> <br>
+                  <br>
                   <img
-                    src="bilder/partner1.jpg" alt="" width=128 height=85>
-                </DIV>
-              </TD>
-            </TR>
-            <TR bgColor=#ffffff>
-              <TD vAlign=top width="71%" height=260>
-                <FONT
+                    src="bilder/partner1.jpg" alt="" width="128" height="85">
+                </div>
+              </td>
+            </tr>
+            <tr bgcolor="#ffffff">
+              <td valign="top" width="71%" height="260">
+                <font
                   face="Verdana, Arial, Helvetica, sans-serif"
                   color=#000000
-                  size=1>.......................................................................................................</FONT>
-                <FONT
+                  size="1">.......................................................................................................</font>
+                <font
                   face="Verdana, Arial, Helvetica, sans-serif"
-                  size=2><BR>
+                  size="2"><br>
                   Mit durchschnittlich 1906 Stunden hat die zweitgrößte deutsche Insel die höchste Sonnenscheindauer in Deutschland.
                   Die Insel Usedom(445 qkm) erreicht man von Ostern bis September mit dem Schiff von Göhren nach Peenemünde
                   oder mit dem Auto. Wie an einer Perlenschnur reihen sich an der Küste die Orte Ahlbeck, Heringsdorf, Bansin,
@@ -39,15 +38,15 @@
                   Nicht unbesucht sollte man den Ort Peenemünde lassen, wo sich auf dem Gelände der ehemals streng geheimen
                   Heeresversuchsanstalt eine einmalige Ausstellung über die Entwicklungsgeschichte der deutschen Luft- und Raumfahrt
                   sowie ein U-Boot Museum befindet.
-                </FONT>
-              </TD>
-            </TR>
-          </TBODY>
-        </TABLE>
+                </font>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
-      </TD>
-    </TR>
-  </TBODY>
-</TABLE>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <?php include "inc/footer.inc.php"; ?>
