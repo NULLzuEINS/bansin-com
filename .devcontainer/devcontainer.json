@@ -1,6 +1,8 @@
 {
-    "name": "PHP 5 Development",
+    "name": "PHP 5.3 Development",
     "dockerFile": "Dockerfile",
     "forwardPorts": [80],
-    "remoteUser": "vscode"
+    "remoteUser": "root",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/var/www/html,type=bind,consistency=cached",
+    "workspaceFolder": "/var/www/html"
 } 

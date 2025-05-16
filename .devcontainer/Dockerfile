@@ -1,41 +1,15 @@
-FROM --platform=linux/amd64 php:5.6-apache
+FROM nimmis/apache-php5
 
-# Setze die alten Debian-Quellen für Stretch (Archiv) und entferne stretch-updates
-RUN sed -i '/stretch-updates/d' /etc/apt/sources.list \
-    && sed -i 's|deb.debian.org/debian|archive.debian.org/debian|g' /etc/apt/sources.list \
-    && sed -i 's|security.debian.org/debian-security|archive.debian.org/debian-security|g' /etc/apt/sources.list \
-    && apt-get update && apt-get install -y \
-    libfreetype6-dev \
-    libjpeg62-turbo-dev \
-    libpng-dev \
-    libzip-dev \
-    zip \
-    unzip \
-    git \
-    && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
-    && docker-php-ext-install -j$(nproc) gd mysqli pdo pdo_mysql zip
+# Aktiviere PHP-Entwicklereinstellungen
+RUN sed -i 's/display_errors = Off/display_errors = On/' /etc/php5/apache2/php.ini && \
+    sed -i 's/display_startup_errors = Off/display_startup_errors = On/' /etc/php5/apache2/php.ini && \
+    sed -i 's/error_reporting = E_ALL & ~E_DEPRECATED/error_reporting = E_ALL/' /etc/php5/apache2/php.ini && \
+    sed -i 's/opcache.enable=1/opcache.enable=0/' /etc/php5/apache2/php.ini
 
-# Aktiviere Apache-Module
-RUN a2enmod rewrite
+# Setze den ServerName
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
-# Setze das Arbeitsverzeichnis
-WORKDIR /var/www/html
+COPY ./ /var/www/html
 
-# Erstelle einen nicht-root Benutzer
-RUN useradd -ms /bin/bash vscode
-RUN chown -R vscode:vscode /var/www/html
-
-# Installiere Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer --version=1.10.22
-
-# Setze die Berechtigungen
-RUN chown -R vscode:vscode /var/www/html
-
-# Wechsle zum vscode Benutzer
-USER vscode
-
-# Kopiere die Apache-Konfiguration
-COPY apache-config.conf /etc/apache2/sites-available/000-default.conf
-
-# Exponiere Port 80
-EXPOSE 80 
+# Start Apache im Vordergrund
+CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
