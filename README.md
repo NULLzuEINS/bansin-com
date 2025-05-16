@@ -13,9 +13,9 @@ This website was developed to provide information about the Villa Cosima holiday
 
 ## Technical Details
 
-- PHP 5.3
+- PHP 8.2
 - Apache Webserver
-- Responsive Design
+- No Responsive Design
 
 ## Development Environment
 
