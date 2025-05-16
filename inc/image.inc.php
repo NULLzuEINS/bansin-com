@@ -10,7 +10,7 @@ function fenster(datei, titel, beschreibung) {
         <html>
             <head>
                 <title>ferienwohnung.de - bansin</title>
-                <link href="../sonneninselstyle.css" rel="stylesheet" type="text/css">
+                <link href="../css/styles.css" rel="stylesheet" type="text/css">
             </head>
             <body text="#000000" vlink="#333333" alink="#333333" link="#333333" bgcolor="#f2f2f2" scroll="auto">
                 <center>

@@ -289,7 +289,7 @@ if(empty($NachrichtAbsenderName)) {
  self.name = "ferienwohnung";
  //-->
  </script>
- <link href="{$serverAddress}sonneninselstyle.css" rel="stylesheet" type="text/css">
+ <link href="{$serverAddress}css/styles.css" rel="stylesheet" type="text/css">
  </head>
  <body text="#000000" vlink="#333333" alink="#333333" link="#333333" bgcolor="#f2f2f2" scroll="auto" >
  <div align="center">
