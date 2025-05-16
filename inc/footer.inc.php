@@ -9,7 +9,7 @@ echo '
 </TR>
 <TR>
 <TD height=24 colspan="3" background=../bilder/down.gif> <DIV align=center><FONT face="Verdana, Arial, Helvetica, sans-serif"
-color=#ffffff size=1> 2003-' . date(Y) . ' by webs</FONT></DIV></TD>
+color=#ffffff size=1> 2003-' . date("Y") . ' by NULLzuEINS Inh. André Lademann</FONT></DIV></TD>
 </TR>
 </TBODY>
 </TABLE>
