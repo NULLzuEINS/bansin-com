@@ -1,10 +1,8 @@
 <?php
-header('Content-Type: text/html; charset=utf-8');
 include "config.inc.php";
 ?>
-<!DOCTYPE html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html>
 <html lang="de">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=" UTF-8"">
