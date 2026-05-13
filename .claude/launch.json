@@ -6,13 +6,13 @@
       "runtimeExecutable": "docker",
       "runtimeArgs": [
         "run", "--rm",
-        "-p", "8079:8079",
-        "-v", "/Users/andrelademann/Development/nullzueins/bansin-com/.claude/worktrees/nostalgic-ardinghelli-2a2646:/var/www/html",
+        "-p", "8081:8081",
+        "-v", "/Users/andrelademann/Development/nullzueins/bansin-com/.claude/worktrees/crazy-bhaskara-55e2ca:/var/www/html",
         "-w", "/var/www/html",
         "php:8.2-cli",
-        "php", "-S", "0.0.0.0:8079"
+        "php", "-S", "0.0.0.0:8081"
       ],
-      "port": 8079
+      "port": 8081
     },
     {
       "name": "Docker / Apache",
