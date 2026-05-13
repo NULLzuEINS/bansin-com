@@ -39,52 +39,6 @@ $statusCss = [
 ];
 ?>
 
-<style>
-    /* --- Preistabellen --- */
-    .preis-uebersicht { border-collapse: collapse; margin-bottom: 6px; }
-    .preis-uebersicht td { padding: 3px 10px; font-size: 10pt; }
-    .detail-table { border-collapse: collapse; margin-bottom: 6px; font-size: 10pt; }
-    .detail-table td { padding: 3px 10px; border-bottom: 1px solid #e0e0e0; }
-    .detail-table .head td { background: #e0e0e0; font-weight: bold; }
-    .detail-table tr:nth-child(even) td { background: #f9f9f9; }
-    .detail-table .row-hs td { background: #3399CC; color: #fff; font-weight: bold; }
-
-    /* --- Saisonkalender (Kompakt-Grid) --- */
-    .cal-table { border-collapse: collapse; border: 1px solid #111; margin-top: 10px; }
-    .cal-table td { width: 14px; height: 14px; font-size: 7pt; text-align: center; }
-    .cal-table .lbl { text-align: right; padding-right: 4px; white-space: nowrap; font-size: 8pt; }
-    .s-hs { background: #3399CC; }
-    .s-zs { background: #FFCC33; }
-    .s-vs { background: #f0f0f0; }
-    .s-na { background: #ffffff; }
-    .legende td { padding: 2px 6px; font-size: 9pt; vertical-align: middle; }
-
-    /* --- Buchungskalender --- */
-    .buchung-wrap { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
-    .monat-block { font-size: 9pt; }
-    .monat-block h4 { margin: 0 0 3px; font-size: 9pt; color: #333; }
-    .monat-cal { border-collapse: collapse; }
-    .monat-cal th { width: 20px; height: 16px; font-size: 7pt; text-align: center;
-                    background: #4898bb; color: #fff; padding: 0; }
-    .monat-cal td { width: 20px; height: 20px; font-size: 8pt; text-align: center;
-                    border: 1px solid #e0e0e0; }
-    .monat-cal .leer { border: none; background: #fff; }
-    .monat-cal .today { font-weight: bold; outline: 2px solid #333; outline-offset: -2px; }
-    .b-free       { background: #a8d8a8; color: #333; }
-    .b-reserved   { background: #e8a0a0; color: #333; }
-    .b-arrival    { background: linear-gradient(135deg, #a8d8a8 50%, #e8a0a0 50%); }
-    .b-departure  { background: linear-gradient(135deg, #e8a0a0 50%, #a8d8a8 50%); }
-    .b-unknown    { background: #f0f0f0; color: #999; }
-    .beleg-updated { font-size: 8pt; color: #999; margin-top: 4px; }
-
-    /* --- Buchungs-Button --- */
-    .buchungs-btn {
-        display: inline-block; margin-top: 10px; padding: 6px 16px;
-        background: #3399CC; color: #fff; font-size: 10pt; font-weight: bold;
-        text-decoration: none; border: none;
-    }
-    .buchungs-btn:hover { background: #4898bb; color: #fff; }
-</style>
 
 <table cellspacing="0" cellpadding="0" width="100%" border="0">
     <tbody>
