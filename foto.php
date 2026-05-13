@@ -1,106 +1,135 @@
 <?php include "inc/header.inc.php"; ?>
 
+<style>
+.gallery-wrap {
+    padding: 8px 10px;
+}
+.gallery-main-img {
+    display: block;
+    width: 100%;
+    max-width: 435px;
+    height: auto;
+    border: 1px solid #ddd;
+}
+.gallery-caption {
+    font-size: 9pt;
+    color: #555;
+    margin-top: 4px;
+    min-height: 18px;
+}
+.gallery-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.gallery-thumb {
+    cursor: pointer;
+    border: 2px solid transparent;
+    opacity: 0.75;
+    transition: opacity 0.15s, border-color 0.15s;
+    display: block;
+}
+.gallery-thumb:hover {
+    opacity: 1;
+}
+.gallery-thumb.active {
+    border-color: #4898bb;
+    opacity: 1;
+}
+.gallery-thumb img {
+    display: block;
+    width: 90px;
+    height: 68px;
+    object-fit: cover;
+}
+</style>
 
 <table cellspacing="0" cellpadding="0" width="100%" border="0">
     <tbody>
         <tr>
-            <td align="left" valign="top">&nbsp;
+            <td align="left" valign="top">
+                <div class="gallery-wrap">
+                    <img id="gallery-main"
+                         class="gallery-main-img"
+                         src="bilder/ansicht/villacosima.jpg"
+                         alt="Die Villa Cosima"
+                         width="435" height="326" />
+                    <div id="gallery-caption" class="gallery-caption">Die Villa Cosima</div>
 
-                <!--webbot bot="PhotoAlbum" U-include="photogallery/photo4023/real.htm" clientside tag="BODY" startspan -->
-                <picture file-href="photogallery/photo4023/real_p.htm" />
-                <picture file-href="photogallery/photo4023/real_x.htm" />
-                <div align="center">
-                    <center>
-                        <layer visibility="hide">
-                            <div class="hidden" id="fpGalleryCaptions_516">
-                                <div>
-                                    <p>Die Villa Cosima</p>
-                                </div>
-                                <div>
-                                    <p>Die Küchenzeile</p>
-                                </div>
-                                <div>
-                                    <p>Die Sitzgelegenheit</p>
-                                </div>
-                                <div>
-                                    <p>Die Sitzgelegenheit</p>
-                                </div>
-                                <div>
-                                    <p>Das Wohnzimmer</p>
-                                </div>
-                                <div>
-                                    <p>Das Wohnzimmer</p>
-                                </div>
-                                <div>
-                                    <p>Das Schlafzimmer</p>
-                                </div>
-                                <div>
-                                    <p>Das Badezimmer</p>
-                                </div>
-                            </div>
-                            <div class="hidden" id="fpGalleryDescriptions_516">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        </layer>
-                        <script language="javascript" src="photogallery/photo4023/sldshow.js">
-                            <!--
-                            -->
-                        </script>
-                        <div class="thumbnails-scroll">
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/villacosima.jpg" width="90" height="68" title="Die Villa Cosima" data-large="bilder/ansicht/villacosima.jpg" />
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/kueche.jpg" width="90" height="68" title="Die Küchenzeile" data-large="bilder/ansicht/kueche.jpg" />
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/sitzgelegenheit.jpg" width="90" height="68" title="Die Sitzgelegenheit" data-large="bilder/ansicht/sitzgelegenheit.jpg" />
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/sitzgelegenheiten.jpg" width="90" height="68" title="Die Sitzgelegenheit" data-large="bilder/ansicht/sitzgelegenheiten.jpg" />
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/wohnzimmerfenster.jpg" width="90" height="68" title="Das Wohnzimmer" data-large="bilder/ansicht/wohnzimmerfenster.jpg" />
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/wohnzimmertisch.jpg" width="90" height="68" title="Das Wohnzimmer" data-large="bilder/ansicht/wohnzimmertisch.jpg" />
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/schlafzimmer.jpg" width="90" height="68" title="Das Schlafzimmer" data-large="bilder/ansicht/schlafzimmer.jpg" />
-                            <img hspace="10" vspace="5" border="0" src="photogallery/photo4023/bad.jpg" width="90" height="68" title="Das Badezimmer" data-large="bilder/ansicht/bad.jpg" />
-                        </div>
-                        <img id="fpGalleryMainImg_516" name="fpGalleryMainImg_516" width="435" height="326" src="bilder/ansicht/villacosima.jpg" title="Die Villa Cosima" />
-                        <div id="fpGalleryCaptionCell_516">
-                            <p>Die Villa Cosima</p>
-                        </div>
-                    </center>
+                    <div class="gallery-thumbs">
+                        <span class="gallery-thumb active"
+                              data-large="bilder/ansicht/villacosima.jpg"
+                              data-caption="Die Villa Cosima"
+                              title="Die Villa Cosima">
+                            <img src="photogallery/photo4023/villacosima.jpg" alt="Die Villa Cosima" />
+                        </span>
+                        <span class="gallery-thumb"
+                              data-large="bilder/ansicht/kueche.jpg"
+                              data-caption="Die Küchenzeile"
+                              title="Die Küchenzeile">
+                            <img src="photogallery/photo4023/kueche.jpg" alt="Die Küchenzeile" />
+                        </span>
+                        <span class="gallery-thumb"
+                              data-large="bilder/ansicht/sitzgelegenheit.jpg"
+                              data-caption="Die Sitzgelegenheit"
+                              title="Die Sitzgelegenheit">
+                            <img src="photogallery/photo4023/sitzgelegenheit.jpg" alt="Die Sitzgelegenheit" />
+                        </span>
+                        <span class="gallery-thumb"
+                              data-large="bilder/ansicht/sitzgelegenheiten.jpg"
+                              data-caption="Die Sitzgelegenheit"
+                              title="Die Sitzgelegenheit">
+                            <img src="photogallery/photo4023/sitzgelegenheiten.jpg" alt="Die Sitzgelegenheit" />
+                        </span>
+                        <span class="gallery-thumb"
+                              data-large="bilder/ansicht/wohnzimmerfenster.jpg"
+                              data-caption="Das Wohnzimmer"
+                              title="Das Wohnzimmer">
+                            <img src="photogallery/photo4023/wohnzimmerfenster.jpg" alt="Das Wohnzimmer" />
+                        </span>
+                        <span class="gallery-thumb"
+                              data-large="bilder/ansicht/wohnzimmertisch.jpg"
+                              data-caption="Das Wohnzimmer (Tisch)"
+                              title="Das Wohnzimmer">
+                            <img src="photogallery/photo4023/wohnzimmertisch.jpg" alt="Das Wohnzimmer" />
+                        </span>
+                        <span class="gallery-thumb"
+                              data-large="bilder/ansicht/schlafzimmer.jpg"
+                              data-caption="Das Schlafzimmer"
+                              title="Das Schlafzimmer">
+                            <img src="photogallery/photo4023/schlafzimmer.jpg" alt="Das Schlafzimmer" />
+                        </span>
+                        <span class="gallery-thumb"
+                              data-large="bilder/ansicht/bad.jpg"
+                              data-caption="Das Badezimmer"
+                              title="Das Badezimmer">
+                            <img src="photogallery/photo4023/bad.jpg" alt="Das Badezimmer" />
+                        </span>
+                    </div>
                 </div>
-                <!--webbot bot="PhotoAlbum" i-checksum="14565" endspan -->
             </td>
         </tr>
     </tbody>
 </table>
 
-<style>
-.thumbnails-scroll {
-    overflow-x: auto;
-    white-space: nowrap;
-    width: 100%;
-    padding-bottom: 10px;
-}
-.thumbnails-scroll a {
-    display: inline-block;
-    vertical-align: middle;
-}
-.thumbnails-scroll img {
-    max-width: none;
-}
-</style>
-
 <script>
-document.querySelectorAll('.thumbnails-scroll img').forEach(function(thumb) {
-    thumb.addEventListener('click', function(e) {
-        var mainImg = document.getElementById('fpGalleryMainImg_516');
-        mainImg.src = this.getAttribute('data-large');
-        mainImg.title = this.title;
-        var caption = document.getElementById('fpGalleryCaptionCell_516');
-        if (caption) caption.innerHTML = '<p>' + this.title + '</p>';
+(function () {
+    var mainImg = document.getElementById('gallery-main');
+    var caption = document.getElementById('gallery-caption');
+    var thumbs  = document.querySelectorAll('.gallery-thumb');
+
+    thumbs.forEach(function (thumb) {
+        thumb.addEventListener('click', function () {
+            thumbs.forEach(function (t) { t.classList.remove('active'); });
+            this.classList.add('active');
+            mainImg.src = this.getAttribute('data-large');
+            mainImg.alt = this.getAttribute('data-caption');
+            caption.textContent = this.getAttribute('data-caption');
+        });
     });
-});
+}());
 </script>
 
 <?php include "inc/footer.inc.php"; ?>
