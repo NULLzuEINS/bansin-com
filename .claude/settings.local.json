@@ -27,7 +27,11 @@
       "Bash(rtk npx *)",
       "mcp__Claude_Preview__preview_start",
       "Bash(command -v php)",
-      "Bash(rtk read *)"
+      "Bash(rtk read *)",
+      "Bash(security find-generic-password *)",
+      "Bash(GH_TOKEN=__CMDSUB_OUTPUT__ gh pr create --repo NULLzuEINS/bansin-com --base main --head claude/nostalgic-ardinghelli-2a2646 --title 'refactor\\(foto\\): FrontPage-Galerie durch moderne HTML-Galerie ersetzen' --body ' *)",
+      "Bash(rtk gh pr create --repo NULLzuEINS/bansin-com --base main --head claude/nostalgic-ardinghelli-2a2646 --title 'refactor\\(foto\\): FrontPage-Galerie durch moderne HTML-Galerie ersetzen' --body ' *)",
+      "Bash(./node_modules/.bin/tailwindcss --version)"
     ]
   }
 }
