@@ -25,7 +25,8 @@ echo '
  Am Rehpfad 16 A<br>
  16321 Bernau<br>
  Telefon 033 387 580 10<br>
- Telefax 033 387 580 10<br>
+ Mobil 0163 439 22 95<br>
+ Telefax 033 387 561 06<br>
  Email <a href="mailform.php"> <?= $contactEmail ?></a><br>
  Internet <a href="http://bansin.com" target="ferien"><?= $contactWebsite ?></a><br>
  <br>
@@ -39,7 +40,7 @@ echo '
  <tr><td>Inhalt</td>
  <td><a href="mailto:r.lademann@aol.de">Roland Lademann</a></td>
  </tr>
- <tr><td>Webdesign</td><td><a href="mailto:gefangen@web.de">Andrï¿½ Lademann</a></td></tr>
+ <tr><td>Webdesign</td><td><a href="mailto:gefangen@web.de">Andr&eacute; Lademann</a></td></tr>
  <tr><td>Webhosting</td>
  <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">all-inkl.de</font></td>
  </tr>

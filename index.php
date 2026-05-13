@@ -71,11 +71,11 @@
 
                         if ((date("z") >= $mainSeasonOneFrom && date("z") <= $mainSeasonOneTo) || (date("z") >= $mainSeasonTwoFrom && date("z") <= $mainSeasonTwoTo) || (date("z") >= $mainSeasonThreeFrom && date("z") <= $mainSeasonThreeTo)) {
                             echo "Zur Zeit ist Hauptsaison. Sie k&ouml;nnen sich bei uns in der Villa Cosima
- f&uuml;r nur 75 &euro; am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
+ f&uuml;r nur 80 &euro; am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
                         }
                         if ((date("z") >= $midSeasonOneFrom && date("z") <= $midSeasonOneTo) || (date("z") >= $midSeasonTwoFrom && date("z") <= $midSeasonTwoTo)) {
                             echo "Zur Zeit ist Zwischensaison. Sie k&ouml;nnen sich bei uns in der Villa Cosima
- f&uuml;r nur <b>55 &euro;</b> am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
+ f&uuml;r nur <b>75 &euro;</b> am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
                         }
                         if ((date("z") >= $offSeasonOneFrom && date("z") <= $offSeasonOneTo) || (date("z") >= $offSeasonTwoFrom && date("z") <= $offSeasonTwoTo)) {
                             echo "Zur Zeit haben wir die Vorsaison. Das
@@ -84,7 +84,7 @@
  Denn anl&auml;sslicher der etwas frischeren
  Jahreszeit haben wir die Preise f&uuml;r
  sie gesenkt. Sie k&ouml;nnen sich bei uns in der Villa Cosima
- f&uuml;r nur <b>41 &euro;</b> am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
+ f&uuml;r nur <b>52 &euro;</b> am Tag einmieten und wundervolle Momente in Bansin und auf Usedom erleben.";
                         }
 
                         ?>

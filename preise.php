@@ -31,8 +31,8 @@
                                                  <font color="#FFFFFF" size="2">Hauptsaison</font>
                                              </td>
                                              <td width="159" align="right" bgcolor="#3399CC"><b>
-                                                     <font color="#FFFFFF" size="2">ï¿½
-                                                         75,00</font>
+                                                     <font color="#FFFFFF" size="2">&euro;
+                                                         80,00</font>
                                                  </b></td>
                                          </tr>
                                          <tr>
@@ -43,8 +43,7 @@
                                                  <font size="2">Zwischensaison</font>
                                              </td>
                                              <td width="159" height="18" align="right" bgcolor="#FFCC33">
-                                                 <font size="2"><b>ï¿½
-                                                         5<font face="Verdana, Arial, Helvetica, sans-serif">7</font>,00</b></font>
+                                                 <font size="2"><b>&euro; 75,00</b></font>
                                              </td>
                                          </tr>
                                          <tr bgcolor="#f0f0f0">
@@ -57,8 +56,7 @@
                                                  <font color="#000000" size="2">saison</font>
                                              </td>
                                              <td width="159" align="right">
-                                                 <font color="#000000" size="2"><b>ï¿½
-                                                         41,00</b></font>
+                                                 <font color="#000000" size="2"><b>&euro; 52,00</b></font>
                                              </td>
                                          </tr>
                                      </table>
