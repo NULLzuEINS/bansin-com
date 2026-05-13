@@ -5,7 +5,7 @@ include "config.inc.php";
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=" UTF-8"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $contactWebsite ?> - <?= $contactTitle ?></title>
     <meta content="<?= $contactWebsite ?> - <?= $contactTitle ?>" name="description">
     <meta content="ferienwohnung,appartement,usedom,bansin, zinnowitz, heeringsdorf, polen, schifffahrt, verleih, ostsee, vermietung, mieten, baden, urlaub, meer, sonne ,lademann ,behm ,villa ,bilder, fotos, kanu, fahrrad, service, gratis, free"

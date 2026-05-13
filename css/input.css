@@ -258,7 +258,8 @@
 
   .layout-wrapper {
     display: inline-block;
-    width: 729px;
+    width: 100%;
+    max-width: 729px;
     background: #ffffff;
     text-align: left;
     margin-top: 8px;
@@ -294,29 +295,60 @@
     height: 106px;
     background-repeat: no-repeat;
     background-position: top left;
+    background-size: cover;
   }
 
   .layout-content-area {
-    background-image: url(../bilder/space2.jpg);
+    background-image: none;
     background-color: #ffffff;
     min-height: 405px;
   }
 
+  /* Leerzeilen-Hack im Wrapper entfernen */
+  .layout-content-area > div > br:first-child {
+    display: none;
+  }
+
+  @media (min-width: 480px) {
+    .layout-content-area {
+      background-image: url(../bilder/space2.jpg);
+    }
+  }
+
   .layout-row {
     display: flex;
+    flex-direction: column;
     width: 99%;
     margin: 0 auto;
   }
 
+  @media (min-width: 480px) {
+    .layout-row {
+      flex-direction: row;
+    }
+  }
+
   .layout-col-nav {
-    width: 22%;
+    width: 100%;
     background: #ffffff;
     flex-shrink: 0;
   }
 
+  @media (min-width: 480px) {
+    .layout-col-nav {
+      width: 22%;
+    }
+  }
+
   .layout-col-content {
-    width: 78%;
+    width: 100%;
     background: #ffffff;
+  }
+
+  @media (min-width: 480px) {
+    .layout-col-content {
+      width: 78%;
+    }
   }
 
   .layout-footer {
@@ -331,39 +363,140 @@
 
   /* === Navigations-Blöcke === */
 
+  /* Mobile: nav als kompakte Leiste mit Gruppenüberschriften */
+  .layout-col-nav {
+    width: 100%;
+    background: #f0f7fb;
+    border-bottom: 2px solid #4898bb;
+    padding: 0 6px 6px;
+    flex-shrink: 0;
+  }
+
+  /* <br> zwischen den nav-blocks ausblenden */
+  .layout-col-nav br {
+    display: none;
+  }
+
   .nav-block {
-    width: 143px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 2px;
-    padding: 2px;
-    background: #ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0 0 4px;
+    background: transparent;
     box-sizing: border-box;
   }
 
   .nav-block-header {
-    @apply text-white pl-1;
-    background: #4898bb;
-    min-height: 12px;
+    width: 100%;
     display: flex;
+    @apply text-white;
+    background: #4898bb;
+    min-height: 22px;
+    padding: 3px 8px;
     align-items: center;
-    justify-content: space-between;
+    font-size: 8pt;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     overflow: hidden;
+    margin-top: 6px;
+  }
+
+  /* Dekorations-Bild im Header ausblenden (nur Desktop) */
+  .nav-block-header img {
+    display: none;
   }
 
   .nav-block-item {
-    @apply pl-1;
-    background: #f0f0f0;
-    min-height: 14px;
+    background: #ffffff;
+    border: 1px solid #c8dfe8;
+    min-height: 36px;
     display: flex;
     align-items: center;
+    padding: 4px 12px;
+    border-radius: 3px;
+  }
+
+  .nav-block-item a {
+    color: #3399cc;
+    font-size: 9pt;
+    white-space: nowrap;
+  }
+
+  .nav-block-item:hover {
+    background: #e0f0f8;
+    border-color: #4898bb;
   }
 
   .nav-block-footer {
-    background: #4898bb;
-    min-height: 16px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    display: none;
+  }
+
+  /* Desktop: klassische Sidebar wiederherstellen */
+  @media (min-width: 480px) {
+    .layout-col-nav {
+      width: 22%;
+      background: #ffffff;
+      border-bottom: none;
+      padding: 0;
+    }
+
+    .layout-col-nav br {
+      display: block;
+    }
+
+    .nav-block {
+      width: 143px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 2px;
+      padding: 2px;
+      background: #ffffff;
+    }
+
+    .nav-block-header {
+      width: auto;
+      @apply text-white pl-1;
+      background: #4898bb;
+      min-height: 12px;
+      display: flex;
+      padding: 0 4px;
+      align-items: center;
+      justify-content: space-between;
+      font-size: inherit;
+      font-weight: normal;
+      letter-spacing: normal;
+      text-transform: none;
+      margin-top: 0;
+    }
+
+    .nav-block-header img {
+      display: inline;
+    }
+
+    .nav-block-item {
+      background: #f0f0f0;
+      border: none;
+      border-radius: 0;
+      min-height: 14px;
+      padding: 0 6px 0 4px;
+    }
+
+    .nav-block-item a {
+      color: #333333;
+      font-size: 10pt;
+      white-space: normal;
+    }
+
+    .nav-block-item:hover {
+      background: #e0e8f0;
+      border-color: transparent;
+    }
+
+    .nav-block-footer {
+      display: flex;
+    }
   }
 }
