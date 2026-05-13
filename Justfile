@@ -41,6 +41,14 @@ fetch:
         {{IMAGE_PHP}} \
         php cron/fetch_belegung.php
 
+# Docker-Image bauen
+build:
+    docker build -t bansin-com .
+
+# Gebautem Image lokal starten (Port 8080)
+serve: build
+    docker run --rm -p 8080:80 bansin-com
+
 # Vendor-Verzeichnis aufräumen
 clean:
     rm -rf "{{WORKDIR}}/vendor"

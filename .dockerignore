@@ -1,0 +1,6 @@
+.git
+.claude
+vendor/
+data/belegung.json
+nbproject
+.phpunit.result.cache
