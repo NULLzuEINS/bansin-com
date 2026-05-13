@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.ostsee-ferienwohnungen.de)",
+      "Bash(rtk git *)",
+      "Bash(rtk gh pr create --repo NULLzuEINS/bansin-com --title 'fix: Preise und Kontaktdaten aktualisiert \\(Stand ostsee-ferienwohnungen.de\\)' --body ' *)",
+      "mcp__github__create_pull_request",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__read_network_requests",
+      "mcp__Claude_in_Chrome__javascript_tool",
+      "mcp__github__update_pull_request"
+    ]
+  }
+}
