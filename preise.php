@@ -143,12 +143,12 @@ $statusCss = [
                         echo '</div>';
                     ?>
 
-                        <table class="legende" style="margin-top:6px;">
+                        <table class="legende mt-[6px]">
                             <tr>
-                                <td class="b-free" style="width:14px;height:14px;">&nbsp;</td><td>Frei</td>
-                                <td class="b-reserved" style="width:14px;height:14px;">&nbsp;</td><td>Belegt</td>
-                                <td class="b-arrival" style="width:14px;height:14px;">&nbsp;</td><td>Nur Anreise</td>
-                                <td class="b-departure" style="width:14px;height:14px;">&nbsp;</td><td>Nur Abreise</td>
+                                <td class="b-free w-[14px] h-[14px]">&nbsp;</td><td>Frei</td>
+                                <td class="b-reserved w-[14px] h-[14px]">&nbsp;</td><td>Belegt</td>
+                                <td class="b-arrival w-[14px] h-[14px]">&nbsp;</td><td>Nur Anreise</td>
+                                <td class="b-departure w-[14px] h-[14px]">&nbsp;</td><td>Nur Abreise</td>
                             </tr>
                         </table>
 

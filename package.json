@@ -1,0 +1,12 @@
+{
+  "name": "bansin-com",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "css:build": "tailwindcss -i css/input.css -o css/styles.css --minify",
+    "css:watch": "tailwindcss -i css/input.css -o css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

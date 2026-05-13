@@ -51,6 +51,14 @@ serve: build
         -v "{{WORKDIR}}/data:/var/www/html/data" \
         bansin-com
 
+# CSS aus Tailwind-Quelle bauen
+css:
+    npm run css:build
+
+# CSS im Watch-Modus bauen (Entwicklung)
+css-watch:
+    npm run css:watch
+
 # Vendor-Verzeichnis aufräumen
 clean:
-    rm -rf "{{WORKDIR}}/vendor"
+    rm -rf "{{WORKDIR}}/vendor" "{{WORKDIR}}/node_modules"

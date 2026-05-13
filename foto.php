@@ -12,7 +12,7 @@
                 <div align="center">
                     <center>
                         <layer visibility="hide">
-                            <div style="display:none;" id="fpGalleryCaptions_516">
+                            <div class="hidden" id="fpGalleryCaptions_516">
                                 <div>
                                     <p>Die Villa Cosima</p>
                                 </div>
@@ -38,7 +38,7 @@
                                     <p>Das Badezimmer</p>
                                 </div>
                             </div>
-                            <div style="display:none;" id="fpGalleryDescriptions_516">
+                            <div class="hidden" id="fpGalleryDescriptions_516">
                                 <div></div>
                                 <div></div>
                                 <div></div>

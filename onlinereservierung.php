@@ -55,7 +55,7 @@ if(empty($NachrichtAbsenderName)) {
  </tr>
  <tr>
  <td>
- <input type="text" size="52" name="NachrichtAbsenderName" style="width:300px;">
+ <input type="text" size="52" name="NachrichtAbsenderName" class="w-[300px]">
  </td>
  </tr>
  <tr>
@@ -64,7 +64,7 @@ if(empty($NachrichtAbsenderName)) {
  </tr>
  <tr>
  <td>
- <input type="text" size="52" name="NachrichtAbsenderEmail" style="width:300px;">
+ <input type="text" size="52" name="NachrichtAbsenderEmail" class="w-[300px]">
  </td>
  </tr>
  <tr>
@@ -72,7 +72,7 @@ if(empty($NachrichtAbsenderName)) {
  </tr>
  <tr>
  <td>
- <input type="text" size="52" name="NachrichtAbsenderPostadresse" style="width:300px;">
+ <input type="text" size="52" name="NachrichtAbsenderPostadresse" class="w-[300px]">
  </td>
  </tr>
  <tr>
@@ -81,7 +81,7 @@ if(empty($NachrichtAbsenderName)) {
  </tr>
  <tr>
  <td>
- <input type="text" size="52" name="NachrichtAbsenderTelefon" style="width:300px;">
+ <input type="text" size="52" name="NachrichtAbsenderTelefon" class="w-[300px]">
  </td>
  </tr>
 
@@ -90,7 +90,7 @@ if(empty($NachrichtAbsenderName)) {
  </tr>
  <tr>
  <td>
- <select name="WunschTag" size="1" style="width:100px;" class="login">';
+ <select name="WunschTag" size="1" class="login w-[100px]">';
  if(date('d') == "01") echo'<option value="01" selected>01</option>';
  else echo'<option value="01">01</option>';
  if(date('d') == "02") echo'<option value="02" selected>02</option>';
@@ -156,7 +156,7 @@ if(empty($NachrichtAbsenderName)) {
  echo'</select>';
 
  // DATUM MONAT
- echo '<select name="WunschMonat" size="1" style="width:100px;" class="login">';
+ echo '<select name="WunschMonat" size="1" class="login w-[100px]">';
  if(date('m') == "01") echo'<option value="01" selected>Januar</option>';
  else echo'<option value="01">Januar</option>';
  if(date('m') == "02") echo'<option value="02" selected>Februar</option>';
@@ -185,7 +185,7 @@ if(empty($NachrichtAbsenderName)) {
 
  // DATUM JAHR
  $Jahr = date('Y');
- echo '<select name="WunschJahr" size="1" style="width:99px;" class="login">';
+ echo '<select name="WunschJahr" size="1" class="login w-[99px]">';
  for($Jahr = date('Y'); $Jahr < date('Y') + 2; $Jahr++) {
  if($Jahr == date('Y')) {
  echo '<option value="'.$Jahr.'" selected>'.$Jahr.'</option>';
@@ -196,7 +196,7 @@ if(empty($NachrichtAbsenderName)) {
  echo '</select>';
  
  // Dauer
- echo '<select name="WunschDauer" size="1" style="width:99px;" class="login">';
+ echo '<select name="WunschDauer" size="1" class="login w-[99px]">';
  for($Dauer = 1; $Dauer < 31; $Dauer++) {
  if($Dauer == 7) {
  echo '<option value="'.$Dauer.'" selected>'.$Dauer.'</option>';
@@ -213,12 +213,12 @@ if(empty($NachrichtAbsenderName)) {
  </tr>
  <tr>
  <td>
- <textarea name="NachrichtInhalt" rows="5" cols="51" wrap="hard" style="width:300px;"></textarea>
+ <textarea name="NachrichtInhalt" rows="5" cols="51" wrap="hard" class="w-[300px]"></textarea>
  </td>
  </tr>
  <tr>
  <td align="left">
- <input type="submit" value="Anfrage abschicken" style="width:300px;">
+ <input type="submit" value="Anfrage abschicken" class="w-[300px]">
  </td>
  </tr>
  </table>
