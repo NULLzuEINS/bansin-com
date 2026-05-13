@@ -3,3 +3,7 @@ data/belegung.json
 vendor/
 
 .phpunit.result.cache
+
+.claude/settings.local.json
+composer-setup.php
+composer.phar
