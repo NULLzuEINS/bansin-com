@@ -99,6 +99,15 @@ include "config.inc.php";
                                                         </td>
                                                     </tr>
 
+                                                    <tr>
+                                                        <td bgcolor="#f0f0f0" height="14">
+                                                            <div align="left">
+                                                                <font
+                                                                    face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp;<a
+                                                                        href="../preise.php">Preise</a></font>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
 
                                                     <tr>
                                                         <td bgcolor="#f0f0f0" height="14">
