@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "PHP Dev Server",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": [
+        "run", "--rm",
+        "-p", "8070:8070",
+        "-v", "/Users/andrelademann/Development/nullzueins/bansin-com/.claude/worktrees/admiring-ptolemy-9b1d8f:/var/www/html",
+        "-w", "/var/www/html",
+        "php:8.2-cli",
+        "php", "-S", "0.0.0.0:8070"
+      ],
+      "port": 8070
+    },
+    {
+      "name": "Docker / Apache",
+      "runtimeExecutable": "just",
+      "runtimeArgs": ["serve"],
+      "port": 8080
+    },
+    {
+      "name": "Tailwind CSS Watch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "css:watch"]
+    }
+  ]
+}

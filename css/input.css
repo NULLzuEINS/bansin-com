@@ -249,4 +249,117 @@
     width: 65px;
     background-color: #3399cc;
   }
+
+  /* === Seiten-Layout (Div-basiert) === */
+
+  .layout-center {
+    text-align: center;
+  }
+
+  .layout-wrapper {
+    display: inline-block;
+    width: 729px;
+    background: #ffffff;
+    text-align: left;
+    margin-top: 8px;
+  }
+
+  .layout-topbar {
+    background: #3399cc;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .layout-topbar-spacer-l {
+    width: 16px;
+    flex-shrink: 0;
+  }
+
+  .layout-topbar-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .layout-topbar-spacer-r {
+    width: 27px;
+    flex-shrink: 0;
+  }
+
+  .layout-banner {
+    height: 106px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  .layout-content-area {
+    background-image: url(../bilder/space2.jpg);
+    background-color: #ffffff;
+    min-height: 405px;
+  }
+
+  .layout-row {
+    display: flex;
+    width: 99%;
+    margin: 0 auto;
+  }
+
+  .layout-col-nav {
+    width: 22%;
+    background: #ffffff;
+    flex-shrink: 0;
+  }
+
+  .layout-col-content {
+    width: 78%;
+    background: #ffffff;
+  }
+
+  .layout-footer {
+    height: 24px;
+    background-image: url(../bilder/down.gif);
+    background-repeat: repeat-x;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* === Navigations-Blöcke === */
+
+  .nav-block {
+    width: 143px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 2px;
+    background: #ffffff;
+    box-sizing: border-box;
+  }
+
+  .nav-block-header {
+    background: #4898bb;
+    min-height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .nav-block-item {
+    background: #f0f0f0;
+    min-height: 14px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-block-footer {
+    background: #4898bb;
+    min-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
 }
