@@ -42,7 +42,7 @@ if(empty($NachrichtAbsenderName)) {
     }
     //-->
     </script>
-    <form name="kontaktforumlar" method="post" action="'.$PHP_SELF.'" onsubmit="return chkFormular()">
+    <form name="kontaktforumlar" method="post" action="' . htmlspecialchars($_SERVER['PHP_SELF']) . '" onsubmit="return chkFormular()">
     <table border="0" width="300" >
     <tr>
     <td>
