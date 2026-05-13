@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-black;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+
+  td {
+    @apply text-black;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    @apply text-black;
+    font-size: 10pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+
+  a {
+    @apply no-underline;
+  }
+
+  a:hover {
+    @apply no-underline;
+    color: #4898bb;
+  }
+
+  input {
+    @apply bg-white;
+    font-size: 10pt;
+    color: #435266;
+    font-family: Verdana, Tahoma, monospace, Arial;
+    border: 1px solid #4898bb;
+  }
+
+  textarea {
+    @apply bg-white;
+    font-size: 10pt;
+    color: #435266;
+    font-family: Verdana, Tahoma, monospace, Arial;
+    border: 1px solid #4898bb;
+    scrollbar-base-color: #4898bb;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-face-color: #E0E8F0;
+    scrollbar-highlight-color: #ffffff;
+    scrollbar-shadow-color: #ffffff;
+    scrollbar-track-color: #ffffff;
+  }
+
+  select {
+    @apply bg-white;
+    font-size: 8pt;
+    color: #435266;
+    font-family: Verdana, Tahoma, monospace, Arial;
+    border: 1px solid #4898bb;
+    border-spacing: 0;
+    scrollbar-base-color: #f8f8f8;
+    scrollbar-3dlight-color: #f0f0f0;
+    scrollbar-arrow-color: #f0f0f0;
+    scrollbar-darkshadow-color: #f0f0f0;
+    scrollbar-face-color: #f0f0f0;
+    scrollbar-highlight-color: #f0f0f0;
+    scrollbar-shadow-color: #f0f0f0;
+    scrollbar-track-color: #f0f0f0;
+  }
+}
+
+@layer components {
+  /* Erläuterungen & Quellenangaben */
+  .erlaeuterung {
+    @apply text-black;
+    font-size: 8pt;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+
+  .quelle {
+    @apply no-underline;
+    font-size: 8pt;
+    color: #aaaaaa;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+
+  a.quelle,
+  a.quelle:link,
+  a.quelle:visited,
+  a.quelle:active,
+  a.quelle:hover {
+    @apply no-underline;
+    color: #4898bb;
+  }
+
+  /* Preistabellen */
+  .preis-uebersicht {
+    @apply border-collapse;
+    margin-bottom: 6px;
+  }
+
+  .preis-uebersicht td {
+    font-size: 10pt;
+    padding: 3px 10px;
+  }
+
+  .detail-table {
+    @apply border-collapse;
+    font-size: 10pt;
+    margin-bottom: 6px;
+  }
+
+  .detail-table td {
+    padding: 3px 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .detail-table .head td {
+    @apply font-bold;
+    background: #e0e0e0;
+  }
+
+  .detail-table tr:nth-child(even) td {
+    background: #f9f9f9;
+  }
+
+  .detail-table .row-hs td {
+    background: #3399CC !important;
+    color: #fff !important;
+    @apply font-bold;
+  }
+
+  /* Saisonkalender (Kompakt-Grid) */
+  .cal-table {
+    @apply border-collapse;
+    border: 1px solid #111;
+    margin-top: 10px;
+  }
+
+  .cal-table td {
+    @apply text-center;
+    width: 14px;
+    height: 14px;
+    font-size: 7pt;
+  }
+
+  .cal-table .lbl {
+    @apply text-right whitespace-nowrap;
+    padding-right: 4px;
+    font-size: 8pt;
+  }
+
+  .s-hs { background: #3399CC; }
+  .s-zs { background: #FFCC33; }
+  .s-vs { background: #f0f0f0; }
+  .s-na { @apply bg-white; }
+
+  .legende td {
+    @apply align-middle;
+    padding: 2px 6px;
+    font-size: 9pt;
+  }
+
+  /* Buchungskalender */
+  .buchung-wrap {
+    @apply flex flex-wrap;
+    gap: 12px;
+    margin-top: 8px;
+  }
+
+  .monat-block {
+    font-size: 9pt;
+  }
+
+  .monat-block h4 {
+    @apply font-normal;
+    margin: 0 0 3px;
+    font-size: 9pt;
+    color: #333;
+  }
+
+  .monat-cal {
+    @apply border-collapse;
+  }
+
+  .monat-cal th {
+    @apply text-center text-white p-0;
+    width: 20px;
+    height: 16px;
+    font-size: 7pt;
+    background: #4898bb;
+  }
+
+  .monat-cal td {
+    @apply text-center;
+    width: 20px;
+    height: 20px;
+    font-size: 8pt;
+    border: 1px solid #e0e0e0;
+  }
+
+  .monat-cal .leer {
+    @apply bg-white;
+    border: none;
+  }
+
+  .monat-cal .today {
+    @apply font-bold;
+    outline: 2px solid #333;
+    outline-offset: -2px;
+  }
+
+  .b-free     { background: #a8d8a8; color: #333; }
+  .b-reserved { background: #e8a0a0; color: #333; }
+  .b-arrival  { background: linear-gradient(135deg, #a8d8a8 50%, #e8a0a0 50%); }
+  .b-departure{ background: linear-gradient(135deg, #e8a0a0 50%, #a8d8a8 50%); }
+  .b-unknown  { background: #f0f0f0; color: #999; }
+
+  .beleg-updated {
+    font-size: 8pt;
+    color: #999;
+    margin-top: 4px;
+  }
+
+  /* Buchungs-Button */
+  .buchungs-btn {
+    @apply inline-block font-bold no-underline;
+    margin-top: 10px;
+    padding: 6px 16px;
+    background: #3399CC;
+    color: #fff;
+    font-size: 10pt;
+    border: none;
+  }
+
+  .buchungs-btn:hover {
+    background: #4898bb;
+    color: #fff;
+  }
+
+  /* Formular-Submit-Button (primär) */
+  .btn-submit {
+    @apply text-white border border-white cursor-pointer;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 8pt;
+    width: 65px;
+    background-color: #3399cc;
+  }
+}

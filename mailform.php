@@ -50,7 +50,7 @@ if(empty($NachrichtAbsenderName)) {
     </tr>
     <tr>
     <td >
-    <input type="text" size="52" name="NachrichtAbsenderName" style="width:300px;">
+    <input type="text" size="52" name="NachrichtAbsenderName" class="w-[300px]">
     </td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@ if(empty($NachrichtAbsenderName)) {
     </tr>
     <tr>
     <td>
-    <input type="text" size="52" name="NachrichtAbsenderEmail" style="width:300px;">
+    <input type="text" size="52" name="NachrichtAbsenderEmail" class="w-[300px]">
     </td>
     </tr>
     <tr>
@@ -67,7 +67,7 @@ if(empty($NachrichtAbsenderName)) {
     </tr>
     <tr>
     <td>
-    <input type="text" size="52" name="NachrichtAbsenderPostadresse" style="width:300px;">
+    <input type="text" size="52" name="NachrichtAbsenderPostadresse" class="w-[300px]">
     </td>
     </tr>
     <tr>
@@ -76,7 +76,7 @@ if(empty($NachrichtAbsenderName)) {
     </tr>
     <tr>
     <td >
-    <input type="text" size="52" name="NachrichtAbsenderTelefon" style="width:300px;">
+    <input type="text" size="52" name="NachrichtAbsenderTelefon" class="w-[300px]">
     </td>
     </tr>
     <tr>
@@ -84,7 +84,7 @@ if(empty($NachrichtAbsenderName)) {
     </tr>
     <tr>
     <td >
-    <input type="text" size="52" name="NachrichtBetreff" style="width:300px;">
+    <input type="text" size="52" name="NachrichtBetreff" class="w-[300px]">
     </td>
     </tr>
     <tr>
@@ -92,12 +92,12 @@ if(empty($NachrichtAbsenderName)) {
     </tr>
     <tr>
     <td >
-    <textarea name="NachrichtInhalt" rows="5" cols="51" wrap="hard" style="width:300px;" ></textarea>
+    <textarea name="NachrichtInhalt" rows="5" cols="51" wrap="hard" class="w-[300px]" ></textarea>
     </td>
     </tr>
     <tr>
     <td align="left" >
-    <input type="submit" name=""value="Abschicken" style="width:300px;">
+    <input type="submit" name=""value="Abschicken" class="w-[300px]">
     </td>
     </tr>
     </table>

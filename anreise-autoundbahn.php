@@ -50,7 +50,7 @@
                                                     <td rowspan="3" width="1"></td>
                                                     <td colspan="2" width="180">
                                                         <font face="Verdana, Arial, Helvetica" size="3">
-                                                            <input type="text" name="fromstreet" value="Straße" size="12" style="width: 178px" tabindex="1" onfocus="if (this.value == 'Straße') this.value = '';">
+                                                            <input type="text" name="fromstreet" value="Straße" size="12" class="w-[178px]" tabindex="1" onfocus="if (this.value == 'Straße') this.value = '';">
                                                         </font>
                                                     </td>
                                                     <td rowspan="3" width="1"></td>
@@ -58,19 +58,19 @@
                                                 <tr>
                                                     <td width="58">
                                                         <font face="Verdana, Arial, Helvetica" size="3">
-                                                            <input type="text" name="fromplz" value="PLZ" size="3" style="width: 50px" maxlength="10" tabindex="2" onfocus="if (this.value == 'PLZ') this.value = '';">
+                                                            <input type="text" name="fromplz" value="PLZ" size="3" class="w-[50px]" maxlength="10" tabindex="2" onfocus="if (this.value == 'PLZ') this.value = '';">
                                                         </font>
                                                     </td>
                                                     <td width="118">
                                                         <font face="Verdana, Arial, Helvetica" size="3">
-                                                            <input type="text" name="fromcity" value="Ort" size="8" style="width: 120px" tabindex="3" onfocus="if (this.value == 'Ort') this.value = '';">
+                                                            <input type="text" name="fromcity" value="Ort" size="8" class="w-[120px]" tabindex="3" onfocus="if (this.value == 'Ort') this.value = '';">
                                                         </font>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td colspan="2">
                                                         <font face="Verdana, Arial, Helvetica" size="2">
-                                                            <select name="fromcountry" tabindex="4" style="width: 178px">
+                                                            <select name="fromcountry" tabindex="4" class="w-[178px]">
                                                                 <option value="---">Bitte wählen...</option>
                                                                 <option value="BEL">Belgien</option>
                                                                 <option value="DNK">Dänemark</option>
@@ -130,7 +130,7 @@
                                     </tr>
                                     <tr bgcolor="#EBECEE">
                                         <td height="50" colspan="9" align="right" valign="middle">
-                                            <input type="submit" value="Berechnen" style="font-family:verdana,helvetica,arial,sans-serif;font-size:8pt;color: #ffffff; width:65px;border-color:#ffffff;background-color:#3399cc;border-width:1;border-style:solid">&nbsp;&nbsp;&nbsp;
+                                            <input type="submit" value="Berechnen" class="btn-submit">&nbsp;&nbsp;&nbsp;
                                         </td>
                                     </tr>
                                     <tr>
@@ -150,37 +150,37 @@
                                                     <tr>
                                                         <td class="tabklein">&nbsp;von:</td>
                                                         <td align="right" colspan="2">
-                                                            <input style="width:100;font:11px" type="text" name="S" size="10">&nbsp;
+                                                            <input class="w-[100px] text-[11px]" type="text" name="S" size="10">&nbsp;
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="tabklein">&nbsp;nach:</td>
                                                         <td align="right" colspan="2">
-                                                            <input style="width:100;font:11px" value="Bansin Seebad" type="text" name="Z" size="10">&nbsp;
+                                                            <input class="w-[100px] text-[11px]" value="Bansin Seebad" type="text" name="Z" size="10">&nbsp;
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <table>
                                                     <tr>
                                                         <td class="tabklein">&nbsp;Datum:</td>
-                                                        <td colspan="2"><input style="width:100;font:11px" type="text" name="date" size="10">&nbsp;</td>
+                                                        <td colspan="2"><input class="w-[100px] text-[11px]" type="text" name="date" size="10">&nbsp;</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="tabklein">&nbsp;Uhrzeit:</td>
-                                                        <td><input style="width:50;font:11px" type="text" name="time" size="5"></td>
+                                                        <td><input class="w-[50px] text-[11px]" type="text" name="time" size="5"></td>
                                                     </tr>
                                                 </table>
                                                 <table width="9" border="0" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td width="19"><input style="background-color:#f0f0f0;" type="radio" name="timesel" value="depart" checked></td>
+                                                        <td width="19"><input class="bg-[#f0f0f0]" type="radio" name="timesel" value="depart" checked></td>
                                                         <td class="tabklein" width="43">Abfahrt</td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="19"><input style="background-color:#f0f0f0;" type="radio" name="timesel" value="arrive"></td>
+                                                        <td width="19"><input class="bg-[#f0f0f0]" type="radio" name="timesel" value="arrive"></td>
                                                         <td class="tabklein" width="43">Ankunft</td>
                                                     </tr>
                                                 </table>
-                                                <input type="submit" name="submitButtonName" value="Suchen" style="font-family:verdana,helvetica,arial,sans-serif;font-size:8pt;color: #ffffff; width:65px;border-color:#ffffff;background-color:#3399cc;border-width:1;border-style:solid">&nbsp;
+                                                <input type="submit" name="submitButtonName" value="Suchen" class="btn-submit">&nbsp;
                                             </form>
                                         </td>
                                     </tr>
