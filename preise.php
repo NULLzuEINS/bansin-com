@@ -92,24 +92,20 @@ $statusCss = [
                     <b>Aktuelle Belegung &amp; Buchung</b><br>
 
                     <?php if ($belegung):
-                        $today     = new DateTimeImmutable('today');
-                        $todayStr  = $today->format('Y-n-j'); // für Vergleich
+                        $today    = new DateTimeImmutable('today');
+                        $todayStr = $today->format('Y-n-j');
+                        $curYear  = (int)$today->format('Y');
 
-                        // 4 Monate ab heute anzeigen
-                        $shown = 0;
                         echo '<div class="buchung-wrap">';
-                        for ($offset = 0; $offset < 6 && $shown < 4; $offset++):
-                            $dt    = $today->modify("+{$offset} month")->modify('first day of this month');
-                            $y     = (int)$dt->format('Y');
-                            $m     = (int)$dt->format('n');
+                        for ($m = 1; $m <= 12; $m++):
+                            $y     = $curYear;
                             $mName = $monthNames[$m - 1];
 
-                            // Nur anzeigen wenn Daten vorhanden
                             if (!isset($belegung['years'][$y][$mName])) continue;
-                            $shown++;
 
-                            $firstDow  = (int)$dt->format('N'); // 1=Mo … 7=So
-                            $daysInM   = (int)$dt->format('t');
+                            $dt       = new DateTimeImmutable("$y-$m-01");
+                            $firstDow = (int)$dt->format('N');
+                            $daysInM  = (int)$dt->format('t');
                     ?>
                         <div class="monat-block">
                             <h4><?= $monthsFull[$m - 1] ?> <?= $y ?></h4>
@@ -139,9 +135,7 @@ $statusCss = [
                                 <?php endwhile; ?>
                             </table>
                         </div>
-                    <?php endfor;
-                        echo '</div>';
-                    ?>
+                    <?php endfor; echo '</div>'; ?>
 
                         <table class="legende mt-[6px]">
                             <tr>

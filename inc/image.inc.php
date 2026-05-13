@@ -17,9 +17,9 @@ function fenster(datei, titel, beschreibung) {
                     <table border="0" cellpadding="0" cellspacing="0" width="435" bgcolor="#ffffff">
                         <tr>
                             <td width="435" bgcolor="#3399cc" align="center">
-                                <font color="#ffffff" size="1" face="Verdana,Helvetica,Arial">
+                                <span class="text-white text-xs">
                                     Ferienappartement in Bansin - ${titel}
-                                </font>
+                                </span>
                             </td>
                         </tr>
                         <tr>
@@ -31,16 +31,16 @@ function fenster(datei, titel, beschreibung) {
                         </tr>
                         <tr>
                             <td align="center" background="../bilder/space2.jpg">
-                                <font color="#000000" size="1" face="Verdana,Helvetica,Arial">
+                                <span class="text-xs">
                                     ${beschreibung}
-                                </font>
+                                </span>
                             </td>
                         </tr>
                         <tr>
                             <td width="435" height="25" bgcolor="#3399cc" align="center" background="../bilder/down.gif">
-                                <font color="#ffffff" size="1" face="Verdana,Helvetica,Arial">
+                                <span class="text-white text-xs">
                                     (c) webs 2003
-                                </font>
+                                </span>
                             </td>
                         </tr>
                     </table>
