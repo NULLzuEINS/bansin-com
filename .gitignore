@@ -1,3 +1,5 @@
 nbproject
 data/belegung.json
 vendor/
+
+.phpunit.result.cache
