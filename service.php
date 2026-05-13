@@ -25,7 +25,8 @@
                         Am Rehpfad 16 A<br>
                         16321 Bernau<br>
                         Telefon 033 387 580 10<br>
-                        Telefax 033 387 580 10<br>
+                        Mobil 0163 439 22 95<br>
+                        Telefax 033 387 561 06<br>
                         Email <a href="mailform.php"><?= $contactEmail ?></a><br><br>
 
                         Und Vorort steht ihnen zusätzlich Herrn Holger Müller als Ansprechparnter zur Verfügung.</span></font>
