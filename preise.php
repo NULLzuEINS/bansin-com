@@ -88,39 +88,6 @@ $statusCss = [
 
                     <br>
 
-                    <!-- Saisonkalender (Jahresübersicht) -->
-                    <table class="cal-table">
-                        <tr>
-                            <td class="lbl">Tag</td>
-                            <?php for ($d = 1; $d <= 31; $d++): ?>
-                                <td class="lbl"><?= $d ?></td>
-                            <?php endfor; ?>
-                        </tr>
-                        <?php foreach ($monthNames as $i => $name):
-                            $m    = $i + 1;
-                            $days = $daysInMonth[$i];
-                        ?>
-                        <tr>
-                            <td class="lbl"><?= $name ?></td>
-                            <?php for ($d = 1; $d <= 31; $d++):
-                                $cls = $d > $days ? 's-na' : 's-' . getSeason($m, $d);
-                            ?>
-                                <td class="<?= $cls ?>">&nbsp;</td>
-                            <?php endfor; ?>
-                        </tr>
-                        <?php endforeach; ?>
-                    </table>
-
-                    <table class="legende" style="margin-top:4px;">
-                        <tr>
-                            <td class="s-hs">&nbsp;&nbsp;</td><td>Hauptsaison (HS)</td>
-                            <td class="s-zs">&nbsp;&nbsp;</td><td>Zwischensaison (ZS)</td>
-                            <td class="s-vs" style="border:1px solid #ccc;">&nbsp;&nbsp;</td><td>Vorsaison (VS)</td>
-                        </tr>
-                    </table>
-
-                    <br>
-
                     <!-- Buchungskalender -->
                     <b>Aktuelle Belegung &amp; Buchung</b><br>
 
