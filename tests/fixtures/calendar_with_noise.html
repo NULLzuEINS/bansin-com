@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<!-- Mobile-Kalender und Legend müssen ignoriert werden -->
+<table class="occupancy_calendar mobile">
+    <tbody>
+        <tr><td class="year">2026</td><td class="day">01</td></tr>
+        <tr><td class="month">Jan</td><td class="reserved">&nbsp;</td></tr>
+    </tbody>
+</table>
+
+<table class="occupancy_calendar legend">
+    <tbody>
+        <tr><td class="free">Frei</td><td class="reserved">Belegt</td></tr>
+    </tbody>
+</table>
+
+<!-- Nur diese Desktop-Tabelle soll geparst werden -->
+<table class="occupancy_calendar">
+    <tbody>
+        <tr class="yeardays">
+            <td class="year">2026</td>
+            <td class="day">01</td>
+            <td class="day">02</td>
+        </tr>
+        <tr>
+            <td class="month">Mär</td>
+            <td class="free">&nbsp;</td>
+            <td class="reserved">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
