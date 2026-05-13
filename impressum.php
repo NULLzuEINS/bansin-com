@@ -42,7 +42,7 @@ echo '
  </tr>
  <tr><td>Webdesign</td><td><a href="mailto:gefangen@web.de">Andr&eacute; Lademann</a></td></tr>
  <tr><td>Webhosting</td>
- <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif">all-inkl.de</font></td>
+ <td><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><a href="https://contabo.com" target="_blank" rel="noopener">Contabo GmbH</a></font></td>
  </tr>
  </table>
 

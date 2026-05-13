@@ -26,7 +26,8 @@
       "Bash(npm install *)",
       "Bash(rtk npx *)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(command -v php)"
+      "Bash(command -v php)",
+      "Bash(rtk read *)"
     ]
   }
 }
