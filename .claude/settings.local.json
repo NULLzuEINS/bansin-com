@@ -21,7 +21,12 @@
       "mcp__Control_Chrome__get_current_tab",
       "mcp__Control_Chrome__get_page_content",
       "mcp__Control_Chrome__execute_javascript",
-      "Bash(rtk curl *)"
+      "Bash(rtk curl *)",
+      "Bash(rtk grep *)",
+      "Bash(npm install *)",
+      "Bash(rtk npx *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(command -v php)"
     ]
   }
 }
