@@ -8,7 +8,20 @@
       "mcp__Claude_in_Chrome__tabs_context_mcp",
       "mcp__Claude_in_Chrome__read_network_requests",
       "mcp__Claude_in_Chrome__javascript_tool",
-      "mcp__github__update_pull_request"
+      "mcp__github__update_pull_request",
+      "mcp__github__pull_request_read",
+      "mcp__github__get_commit",
+      "Bash(rtk docker *)",
+      "Bash(git rm *)",
+      "Bash(rtk ls *)",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__tabs_create_mcp",
+      "mcp__Claude_in_Chrome__computer",
+      "mcp__Control_Chrome__open_url",
+      "mcp__Control_Chrome__get_current_tab",
+      "mcp__Control_Chrome__get_page_content",
+      "mcp__Control_Chrome__execute_javascript",
+      "Bash(rtk curl *)"
     ]
   }
 }
