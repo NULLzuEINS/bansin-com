@@ -23,39 +23,37 @@ include "config.inc.php";
 <body text="#000000" vlink="#333333" alink="#333333" link="#333333" bgcolor="#f2f2f2" scroll="auto">
     <div class="layout-center">
         <div class="layout-wrapper">
-            <div class="layout-topbar">
+            <header class="layout-topbar">
                 <div class="layout-topbar-spacer-l">&nbsp;</div>
                 <div class="layout-topbar-title">
-                    <font color="#ffffff" size="1">
-                        <?= $contactTitle ?>
-                    </font>
+                    <?= $contactTitle ?>
                 </div>
-                <div class="layout-topbar-spacer-r"><font size="1">&nbsp;</font></div>
-            </div>
+                <div class="layout-topbar-spacer-r">&nbsp;</div>
+            </header>
             <div class="layout-banner" style="background-image:url(bilder/banner/<?= date("H") ?>kopf.jpg)">&nbsp;</div>
             <div class="layout-content-area">
                 <div align="left"><br>
                     <div class="layout-row">
-                        <div class="layout-col-nav">
+                        <nav class="layout-col-nav">
                             <div class="nav-block">
                                 <div class="nav-block-header">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" size="2">&nbsp;Ferienwohnung</font>
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" size="1"><img height="5" src="../bilder/ecke1.gif" width="5" align="top"></font>
+                                    <span>Ferienwohnung</span>
+                                    <img height="5" src="../bilder/ecke1.gif" width="5" align="top">
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp;<a href="../index.php">Eingangsbereich</a></font>
+                                    <a href="../index.php">Eingangsbereich</a>
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp;<a href="../ansicht.php">Appartement</a></font>
+                                    <a href="../ansicht.php">Appartement</a>
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp;<a href="../preise.php">Preise</a></font>
+                                    <a href="../preise.php">Preise</a>
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp;<a href="../service.php">Service</a></font>
+                                    <a href="../service.php">Service</a>
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp;<a href="../anreise.php">Anreise</a></font>
+                                    <a href="../anreise.php">Anreise</a>
                                 </div>
                                 <div class="nav-block-footer">
                                     <img height="5" src="../bilder/ecke2rechts.gif" width="5">
@@ -64,24 +62,24 @@ include "config.inc.php";
                             <br>
                             <div class="nav-block">
                                 <div class="nav-block-header">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" size="2">&nbsp;Information</font>
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" color="#ffffff" size="1"><img height="5" src="../bilder/ecke1.gif" width="5" align="top"></font>
+                                    <span>Information</span>
+                                    <img height="5" src="../bilder/ecke1.gif" width="5" align="top">
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="../usedom.php">&nbsp;Usedom</a></font>
+                                    <a href="../usedom.php">Usedom</a>
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="../bansin.php">&nbsp;Bansin</a></font>
+                                    <a href="../bansin.php">Bansin</a>
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="../mailform.php">&nbsp;Email</a></font>
+                                    <a href="../mailform.php">Email</a>
                                 </div>
                                 <div class="nav-block-item">
-                                    <font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="../impressum.php">&nbsp;Impressum</a></font>
+                                    <a href="../impressum.php">Impressum</a>
                                 </div>
                                 <div class="nav-block-footer">
                                     <img height="5" src="../bilder/ecke2rechts.gif" width="5">
                                 </div>
                             </div>
-                        </div>
-                        <div class="layout-col-content">
+                        </nav>
+                        <main class="layout-col-content">

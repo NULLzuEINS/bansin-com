@@ -278,6 +278,7 @@
   }
 
   .layout-topbar-title {
+    @apply text-white text-xs;
     flex: 1;
     display: flex;
     align-items: center;
@@ -319,6 +320,7 @@
   }
 
   .layout-footer {
+    @apply text-white text-xs;
     height: 24px;
     background-image: url(../bilder/down.gif);
     background-repeat: repeat-x;
@@ -340,6 +342,7 @@
   }
 
   .nav-block-header {
+    @apply text-white pl-1;
     background: #4898bb;
     min-height: 12px;
     display: flex;
@@ -349,6 +352,7 @@
   }
 
   .nav-block-item {
+    @apply pl-1;
     background: #f0f0f0;
     min-height: 14px;
     display: flex;
