@@ -75,15 +75,16 @@ $statusCss = [
                     <br>
 
                     <!-- Detaillierte Saisonpreise -->
-                    <table class="detail-table">
+                    <p class="erlaeuterung" style="margin-bottom:4px;">Zeitraum anklicken zum Hervorheben im Kalender:</p>
+                    <table class="detail-table" id="preisTabelle">
                         <tr class="head"><td>Zeitraum</td><td>Preis / Nacht</td></tr>
-                        <tr><td>01.01. &ndash; 18.03.</td><td>&euro; 52,00</td></tr>
-                        <tr><td>19.03. &ndash; 02.04.</td><td>&euro; 60,00</td></tr>
-                        <tr><td>03.04. &ndash; 08.05.</td><td>&euro; 65,00</td></tr>
-                        <tr><td>09.05. &ndash; 30.06.</td><td>&euro; 75,00</td></tr>
-                        <tr class="row-hs"><td>01.07. &ndash; 08.09.</td><td>&euro; 80,00</td></tr>
-                        <tr><td>09.09. &ndash; 18.10.</td><td>&euro; 75,00</td></tr>
-                        <tr><td>19.10. &ndash; 31.12.</td><td>&euro; 60,00</td></tr>
+                        <tr class="selectable-period" data-from="01-01" data-to="03-18" data-color="#aaa"><td>01.01. &ndash; 18.03.</td><td>&euro; 52,00</td></tr>
+                        <tr class="selectable-period" data-from="03-19" data-to="04-02" data-color="#88bb88"><td>19.03. &ndash; 02.04.</td><td>&euro; 60,00</td></tr>
+                        <tr class="selectable-period" data-from="04-03" data-to="05-08" data-color="#FFCC33"><td>03.04. &ndash; 08.05.</td><td>&euro; 65,00</td></tr>
+                        <tr class="selectable-period" data-from="05-09" data-to="06-30" data-color="#FFCC33"><td>09.05. &ndash; 30.06.</td><td>&euro; 75,00</td></tr>
+                        <tr class="selectable-period row-hs" data-from="07-01" data-to="09-08" data-color="#3399CC"><td>01.07. &ndash; 08.09.</td><td>&euro; 80,00</td></tr>
+                        <tr class="selectable-period" data-from="09-09" data-to="10-18" data-color="#FFCC33"><td>09.09. &ndash; 18.10.</td><td>&euro; 75,00</td></tr>
+                        <tr class="selectable-period" data-from="10-19" data-to="12-31" data-color="#88bb88"><td>19.10. &ndash; 31.12.</td><td>&euro; 60,00</td></tr>
                     </table>
 
                     <br>
@@ -96,7 +97,7 @@ $statusCss = [
                         $todayStr = $today->format('Y-n-j');
                         $curYear  = (int)$today->format('Y');
 
-                        echo '<div class="buchung-wrap">';
+                        echo '<div class="buchung-wrap" id="buchungWrap">';
                         for ($m = 1; $m <= 12; $m++):
                             $y     = $curYear;
                             $mName = $monthNames[$m - 1];
@@ -129,7 +130,7 @@ $statusCss = [
                                         $cls     = $statusCss[$status] ?? 'b-unknown';
                                         $isToday = ($y . '-' . $m . '-' . $cell === $todayStr) ? ' today' : '';
                                     ?>
-                                        <td class="<?= $cls . $isToday ?>"><?= $cell ?></td>
+                                        <td class="<?= $cls . $isToday ?>" data-date="<?= sprintf('%04d-%02d-%02d', $y, $m, $cell) ?>"><?= $cell ?></td>
                                     <?php endif; $cell++; endfor; ?>
                                 </tr>
                                 <?php endwhile; ?>
@@ -182,5 +183,63 @@ $statusCss = [
         </tr>
     </tbody>
 </table>
+
+<style>
+.selectable-period {
+    cursor: pointer;
+    transition: filter 0.1s;
+}
+.selectable-period:hover td {
+    filter: brightness(0.92);
+}
+.selectable-period.active td {
+    outline: 2px solid #333;
+    outline-offset: -1px;
+}
+.monat-cal td.period-hl {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-offset: -2px;
+}
+</style>
+<script>
+(function () {
+    var rows = document.querySelectorAll('.selectable-period');
+    var calCells = document.querySelectorAll('.monat-cal td[data-date]');
+
+    function clearHighlight() {
+        rows.forEach(function (r) { r.classList.remove('active'); });
+        calCells.forEach(function (td) {
+            td.classList.remove('period-hl');
+            td.style.outlineColor = '';
+        });
+    }
+
+    rows.forEach(function (row) {
+        row.addEventListener('click', function () {
+            var wasActive = row.classList.contains('active');
+            clearHighlight();
+            if (wasActive) return;
+
+            row.classList.add('active');
+            var from  = row.dataset.from;  // "MM-DD"
+            var to    = row.dataset.to;    // "MM-DD"
+            var color = row.dataset.color;
+
+            calCells.forEach(function (td) {
+                var mmdd = td.dataset.date.slice(5); // "YYYY-MM-DD" → "MM-DD"
+                if (mmdd >= from && mmdd <= to) {
+                    td.classList.add('period-hl');
+                    td.style.outlineColor = color;
+                }
+            });
+
+            // Kalender in den sichtbaren Bereich scrollen
+            var wrap = document.getElementById('buchungWrap');
+            if (wrap) wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        });
+    });
+}());
+</script>
 
 <?php include "inc/footer.inc.php"; ?>
