@@ -94,7 +94,7 @@ A:hover {
 .detail-table td { padding: 3px 10px; border-bottom: 1px solid #e0e0e0; }
 .detail-table .head td { background: #e0e0e0; font-weight: bold; }
 .detail-table tr:nth-child(even) td { background: #f9f9f9; }
-.detail-table .row-hs td { background: #3399CC; color: #fff; font-weight: bold; }
+.detail-table .row-hs td { background: #3399CC !important; color: #fff !important; font-weight: bold; }
 
 /* --- Saisonkalender (Kompakt-Grid) --- */
 .cal-table { border-collapse: collapse; border: 1px solid #111; margin-top: 10px; }
