@@ -45,9 +45,11 @@ fetch:
 build:
     docker build -t bansin-com .
 
-# Gebautem Image lokal starten (Port 8080)
+# Gebautem Image lokal starten (Port 8080); data/ wird gemountet damit belegung.json verfügbar ist
 serve: build
-    docker run --rm -p 8080:80 bansin-com
+    docker run --rm -p 8080:80 \
+        -v "{{WORKDIR}}/data:/var/www/html/data" \
+        bansin-com
 
 # Vendor-Verzeichnis aufräumen
 clean:
