@@ -12,6 +12,10 @@
 
 declare(strict_types=1);
 
+require __DIR__ . '/BelegungParser.php';
+
+use Bansin\Cron\BelegungParser;
+
 const SOURCE_URL  = 'https://www.ostsee-ferienwohnungen.de/o1397';
 const OUTPUT_FILE = __DIR__ . '/../data/belegung.json';
 
@@ -32,69 +36,7 @@ if ($html === false) {
 
 // --- HTML parsen ---
 
-libxml_use_internal_errors(true);
-$dom = new DOMDocument();
-$dom->loadHTML('<?xml encoding="UTF-8">' . $html);
-libxml_clear_errors();
-$xpath = new DOMXPath($dom);
-
-$data = [];
-
-// Desktop-Tabellen: class="occupancy_calendar" ohne "mobile" oder "legend"
-$tables = $xpath->query('//table[contains(@class,"occupancy_calendar") and not(contains(@class,"mobile")) and not(contains(@class,"legend"))]');
-
-foreach ($tables as $table) {
-    $rows = $xpath->query('.//tr', $table);
-    $year     = null;
-    $dayMap   = [];   // Index → Tageszahl
-    $calendar = [];
-
-    foreach ($rows as $rowIdx => $row) {
-        $cells = $xpath->query('.//td', $row);
-
-        if ($rowIdx === 0) {
-            // Kopfzeile: Jahr + Tagesnummern
-            $colIdx = 0;
-            foreach ($cells as $cell) {
-                $cls = trim($cell->getAttribute('class'));
-                if ($cls === 'year') {
-                    $year = (int) trim($cell->textContent);
-                } elseif ($cls === 'day') {
-                    $dayMap[$colIdx] = (int) trim($cell->textContent);
-                }
-                $colIdx++;
-            }
-            continue;
-        }
-
-        // Monatszeile
-        $monthName = null;
-        $days      = [];
-        $colIdx    = 0;
-
-        foreach ($cells as $cell) {
-            $cls = trim($cell->getAttribute('class'));
-            if ($cls === 'month') {
-                $monthName = trim($cell->textContent);
-                $colIdx++;
-                continue;
-            }
-            // Tagesstatus (free, reserved, arrival_only, departure_only)
-            if (isset($dayMap[$colIdx]) && $cls !== '') {
-                $days[$dayMap[$colIdx]] = $cls;
-            }
-            $colIdx++;
-        }
-
-        if ($monthName !== null && count($days) > 0) {
-            $calendar[$monthName] = $days;
-        }
-    }
-
-    if ($year !== null && count($calendar) > 0) {
-        $data[$year] = $calendar;
-    }
-}
+$data = (new BelegungParser())->parse($html);
 
 if (empty($data)) {
     fwrite(STDERR, "Fehler: Keine Kalenderdaten im HTML gefunden.\n");
