@@ -10,7 +10,7 @@ COPY inc/ ./inc/
 RUN npm run css:build
 
 # Stage 2: PHP/Apache runtime
-FROM php:8.2.35-apache
+FROM php:8.2.36-apache
 
 # mod_rewrite (.htaccess) + mod_headers (Cache-Control)
 RUN a2enmod rewrite headers
